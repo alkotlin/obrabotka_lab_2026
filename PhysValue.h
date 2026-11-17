@@ -7,10 +7,8 @@
 
 template <typename Unit>
 class PhysValue {
-private:
-    // PhysValue(): value(au::QuantityD<Unit>::zero()), error(au::QuantityD<Unit>::zero()){};
-    PhysValue() = delete;
 public:
+    PhysValue(): value(au::ZERO), error(au::ZERO){};
     au::QuantityD<Unit> value;
     au::QuantityD<Unit> error;
 

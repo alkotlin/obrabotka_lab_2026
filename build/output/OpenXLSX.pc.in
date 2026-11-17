@@ -1,0 +1,13 @@
+prefix=@CMAKE_INSTALL_PREFIX@
+exec_prefix=${prefix}
+includedir=${prefix}/include/OpenXLSX
+libdir=${exec_prefix}/lib
+
+Name: OpenXLSX
+Description: A C++17 library for reading, writing and modifying Excel spreadsheets
+URL: 
+Version: 0.5.1
+Cflags: -I"${includedir}"
+Requires.private: pugixml-OpenXLSX >= 1.15 miniz-OpenXLSX
+Libs: -L${libdir} -Wl,-rpath,${libdir} -lOpenXLSX
+Libs.private: 

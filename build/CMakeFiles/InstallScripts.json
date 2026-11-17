@@ -1,0 +1,12 @@
+{
+	"InstallScripts" : 
+	[
+		"C:/Users/AlKotlin/Desktop/laba/build/cmake_install.cmake",
+		"C:/Users/AlKotlin/Desktop/laba/build/external/OpenXLSX/cmake_install.cmake",
+		"C:/Users/AlKotlin/Desktop/laba/build/_deps/nowide_fetch-build/cmake_install.cmake",
+		"C:/Users/AlKotlin/Desktop/laba/build/_deps/miniz_fetch-build/cmake_install.cmake",
+		"C:/Users/AlKotlin/Desktop/laba/build/_deps/pugixml_fetch-build/cmake_install.cmake",
+		"C:/Users/AlKotlin/Desktop/laba/build/external/OpenXLSX/OpenXLSX/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

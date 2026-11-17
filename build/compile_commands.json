@@ -1,0 +1,242 @@
+[
+{
+  "directory": "C:/Users/AlKotlin/Desktop/laba/build",
+  "command": "\"C:\\Users\\AlKotlin\\Downloads\\Telegram Desktop\\x86_64-13.1.0-release-posix-seh-ucrt-rt_v111-rev1\\mingw64\\bin\\c++.exe\" -DOPENXLSX_STATIC_DEFINE @CMakeFiles\\MyProject.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\MyProject.dir\\main.cpp.obj -c C:\\Users\\AlKotlin\\Desktop\\laba\\main.cpp",
+  "file": "C:/Users/AlKotlin/Desktop/laba/main.cpp",
+  "output": "CMakeFiles/MyProject.dir/main.cpp.obj"
+},
+{
+  "directory": "C:/Users/AlKotlin/Desktop/laba/build",
+  "command": "\"C:\\Users\\AlKotlin\\Downloads\\Telegram Desktop\\x86_64-13.1.0-release-posix-seh-ucrt-rt_v111-rev1\\mingw64\\bin\\c++.exe\" -DOPENXLSX_STATIC_DEFINE @CMakeFiles\\MyProject.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\MyProject.dir\\Excel.cpp.obj -c C:\\Users\\AlKotlin\\Desktop\\laba\\Excel.cpp",
+  "file": "C:/Users/AlKotlin/Desktop/laba/Excel.cpp",
+  "output": "CMakeFiles/MyProject.dir/Excel.cpp.obj"
+},
+{
+  "directory": "C:/Users/AlKotlin/Desktop/laba/build/_deps/nowide_fetch-build",
+  "command": "\"C:\\Users\\AlKotlin\\Downloads\\Telegram Desktop\\x86_64-13.1.0-release-posix-seh-ucrt-rt_v111-rev1\\mingw64\\bin\\c++.exe\" -DGIT_COMMIT_ID=\\\"98684fc4\\\" -DGIT_COMMIT_ID_TIME=\"\\\"2026-11-17 16:23:50 +0300\\\"\" -DNOWIDE_HAS_INIT_PRIORITY -DNOWIDE_NO_LIB @CMakeFiles\\nowide.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=c++17 -fvisibility=hidden -fno-keep-inline-dllexport -Wall -Wextra -pedantic -o CMakeFiles\\nowide.dir\\src\\console_buffer.cpp.obj -c C:\\Users\\AlKotlin\\Desktop\\laba\\build\\_deps\\nowide_fetch-src\\src\\console_buffer.cpp",
+  "file": "C:/Users/AlKotlin/Desktop/laba/build/_deps/nowide_fetch-src/src/console_buffer.cpp",
+  "output": "_deps/nowide_fetch-build/CMakeFiles/nowide.dir/src/console_buffer.cpp.obj"
+},
+{
+  "directory": "C:/Users/AlKotlin/Desktop/laba/build/_deps/nowide_fetch-build",
+  "command": "\"C:\\Users\\AlKotlin\\Downloads\\Telegram Desktop\\x86_64-13.1.0-release-posix-seh-ucrt-rt_v111-rev1\\mingw64\\bin\\c++.exe\" -DGIT_COMMIT_ID=\\\"98684fc4\\\" -DGIT_COMMIT_ID_TIME=\"\\\"2026-11-17 16:23:50 +0300\\\"\" -DNOWIDE_HAS_INIT_PRIORITY -DNOWIDE_NO_LIB @CMakeFiles\\nowide.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=c++17 -fvisibility=hidden -fno-keep-inline-dllexport -Wall -Wextra -pedantic -o CMakeFiles\\nowide.dir\\src\\cstdio.cpp.obj -c C:\\Users\\AlKotlin\\Desktop\\laba\\build\\_deps\\nowide_fetch-src\\src\\cstdio.cpp",
+  "file": "C:/Users/AlKotlin/Desktop/laba/build/_deps/nowide_fetch-src/src/cstdio.cpp",
+  "output": "_deps/nowide_fetch-build/CMakeFiles/nowide.dir/src/cstdio.cpp.obj"
+},
+{
+  "directory": "C:/Users/AlKotlin/Desktop/laba/build/_deps/nowide_fetch-build",
+  "command": "\"C:\\Users\\AlKotlin\\Downloads\\Telegram Desktop\\x86_64-13.1.0-release-posix-seh-ucrt-rt_v111-rev1\\mingw64\\bin\\c++.exe\" -DGIT_COMMIT_ID=\\\"98684fc4\\\" -DGIT_COMMIT_ID_TIME=\"\\\"2026-11-17 16:23:50 +0300\\\"\" -DNOWIDE_HAS_INIT_PRIORITY -DNOWIDE_NO_LIB @CMakeFiles\\nowide.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=c++17 -fvisibility=hidden -fno-keep-inline-dllexport -Wall -Wextra -pedantic -o CMakeFiles\\nowide.dir\\src\\cstdlib.cpp.obj -c C:\\Users\\AlKotlin\\Desktop\\laba\\build\\_deps\\nowide_fetch-src\\src\\cstdlib.cpp",
+  "file": "C:/Users/AlKotlin/Desktop/laba/build/_deps/nowide_fetch-src/src/cstdlib.cpp",
+  "output": "_deps/nowide_fetch-build/CMakeFiles/nowide.dir/src/cstdlib.cpp.obj"
+},
+{
+  "directory": "C:/Users/AlKotlin/Desktop/laba/build/_deps/nowide_fetch-build",
+  "command": "\"C:\\Users\\AlKotlin\\Downloads\\Telegram Desktop\\x86_64-13.1.0-release-posix-seh-ucrt-rt_v111-rev1\\mingw64\\bin\\c++.exe\" -DGIT_COMMIT_ID=\\\"98684fc4\\\" -DGIT_COMMIT_ID_TIME=\"\\\"2026-11-17 16:23:50 +0300\\\"\" -DNOWIDE_HAS_INIT_PRIORITY -DNOWIDE_NO_LIB @CMakeFiles\\nowide.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=c++17 -fvisibility=hidden -fno-keep-inline-dllexport -Wall -Wextra -pedantic -o CMakeFiles\\nowide.dir\\src\\filebuf.cpp.obj -c C:\\Users\\AlKotlin\\Desktop\\laba\\build\\_deps\\nowide_fetch-src\\src\\filebuf.cpp",
+  "file": "C:/Users/AlKotlin/Desktop/laba/build/_deps/nowide_fetch-src/src/filebuf.cpp",
+  "output": "_deps/nowide_fetch-build/CMakeFiles/nowide.dir/src/filebuf.cpp.obj"
+},
+{
+  "directory": "C:/Users/AlKotlin/Desktop/laba/build/_deps/nowide_fetch-build",
+  "command": "\"C:\\Users\\AlKotlin\\Downloads\\Telegram Desktop\\x86_64-13.1.0-release-posix-seh-ucrt-rt_v111-rev1\\mingw64\\bin\\c++.exe\" -DGIT_COMMIT_ID=\\\"98684fc4\\\" -DGIT_COMMIT_ID_TIME=\"\\\"2026-11-17 16:23:50 +0300\\\"\" -DNOWIDE_HAS_INIT_PRIORITY -DNOWIDE_NO_LIB @CMakeFiles\\nowide.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=c++17 -fvisibility=hidden -fno-keep-inline-dllexport -Wall -Wextra -pedantic -o CMakeFiles\\nowide.dir\\src\\iostream.cpp.obj -c C:\\Users\\AlKotlin\\Desktop\\laba\\build\\_deps\\nowide_fetch-src\\src\\iostream.cpp",
+  "file": "C:/Users/AlKotlin/Desktop/laba/build/_deps/nowide_fetch-src/src/iostream.cpp",
+  "output": "_deps/nowide_fetch-build/CMakeFiles/nowide.dir/src/iostream.cpp.obj"
+},
+{
+  "directory": "C:/Users/AlKotlin/Desktop/laba/build/_deps/nowide_fetch-build",
+  "command": "\"C:\\Users\\AlKotlin\\Downloads\\Telegram Desktop\\x86_64-13.1.0-release-posix-seh-ucrt-rt_v111-rev1\\mingw64\\bin\\c++.exe\" -DGIT_COMMIT_ID=\\\"98684fc4\\\" -DGIT_COMMIT_ID_TIME=\"\\\"2026-11-17 16:23:50 +0300\\\"\" -DNOWIDE_HAS_INIT_PRIORITY -DNOWIDE_NO_LIB @CMakeFiles\\nowide.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=c++17 -fvisibility=hidden -fno-keep-inline-dllexport -Wall -Wextra -pedantic -o CMakeFiles\\nowide.dir\\src\\stat.cpp.obj -c C:\\Users\\AlKotlin\\Desktop\\laba\\build\\_deps\\nowide_fetch-src\\src\\stat.cpp",
+  "file": "C:/Users/AlKotlin/Desktop/laba/build/_deps/nowide_fetch-src/src/stat.cpp",
+  "output": "_deps/nowide_fetch-build/CMakeFiles/nowide.dir/src/stat.cpp.obj"
+},
+{
+  "directory": "C:/Users/AlKotlin/Desktop/laba/build/_deps/miniz_fetch-build",
+  "command": "\"C:\\Users\\AlKotlin\\Downloads\\Telegram Desktop\\x86_64-13.1.0-release-posix-seh-ucrt-rt_v111-rev1\\mingw64\\bin\\gcc.exe\" -DGIT_COMMIT_ID=\\\"98684fc4\\\" -DGIT_COMMIT_ID_TIME=\"\\\"2026-11-17 16:23:50 +0300\\\"\" -D_GNU_SOURCE @CMakeFiles\\miniz.dir\\includes_C.rsp -O3 -DNDEBUG -o CMakeFiles\\miniz.dir\\miniz.c.obj -c C:\\Users\\AlKotlin\\Desktop\\laba\\build\\_deps\\miniz_fetch-src\\miniz.c",
+  "file": "C:/Users/AlKotlin/Desktop/laba/build/_deps/miniz_fetch-src/miniz.c",
+  "output": "_deps/miniz_fetch-build/CMakeFiles/miniz.dir/miniz.c.obj"
+},
+{
+  "directory": "C:/Users/AlKotlin/Desktop/laba/build/_deps/miniz_fetch-build",
+  "command": "\"C:\\Users\\AlKotlin\\Downloads\\Telegram Desktop\\x86_64-13.1.0-release-posix-seh-ucrt-rt_v111-rev1\\mingw64\\bin\\gcc.exe\" -DGIT_COMMIT_ID=\\\"98684fc4\\\" -DGIT_COMMIT_ID_TIME=\"\\\"2026-11-17 16:23:50 +0300\\\"\" -D_GNU_SOURCE @CMakeFiles\\miniz.dir\\includes_C.rsp -O3 -DNDEBUG -o CMakeFiles\\miniz.dir\\miniz_zip.c.obj -c C:\\Users\\AlKotlin\\Desktop\\laba\\build\\_deps\\miniz_fetch-src\\miniz_zip.c",
+  "file": "C:/Users/AlKotlin/Desktop/laba/build/_deps/miniz_fetch-src/miniz_zip.c",
+  "output": "_deps/miniz_fetch-build/CMakeFiles/miniz.dir/miniz_zip.c.obj"
+},
+{
+  "directory": "C:/Users/AlKotlin/Desktop/laba/build/_deps/miniz_fetch-build",
+  "command": "\"C:\\Users\\AlKotlin\\Downloads\\Telegram Desktop\\x86_64-13.1.0-release-posix-seh-ucrt-rt_v111-rev1\\mingw64\\bin\\gcc.exe\" -DGIT_COMMIT_ID=\\\"98684fc4\\\" -DGIT_COMMIT_ID_TIME=\"\\\"2026-11-17 16:23:50 +0300\\\"\" -D_GNU_SOURCE @CMakeFiles\\miniz.dir\\includes_C.rsp -O3 -DNDEBUG -o CMakeFiles\\miniz.dir\\miniz_tinfl.c.obj -c C:\\Users\\AlKotlin\\Desktop\\laba\\build\\_deps\\miniz_fetch-src\\miniz_tinfl.c",
+  "file": "C:/Users/AlKotlin/Desktop/laba/build/_deps/miniz_fetch-src/miniz_tinfl.c",
+  "output": "_deps/miniz_fetch-build/CMakeFiles/miniz.dir/miniz_tinfl.c.obj"
+},
+{
+  "directory": "C:/Users/AlKotlin/Desktop/laba/build/_deps/miniz_fetch-build",
+  "command": "\"C:\\Users\\AlKotlin\\Downloads\\Telegram Desktop\\x86_64-13.1.0-release-posix-seh-ucrt-rt_v111-rev1\\mingw64\\bin\\gcc.exe\" -DGIT_COMMIT_ID=\\\"98684fc4\\\" -DGIT_COMMIT_ID_TIME=\"\\\"2026-11-17 16:23:50 +0300\\\"\" -D_GNU_SOURCE @CMakeFiles\\miniz.dir\\includes_C.rsp -O3 -DNDEBUG -o CMakeFiles\\miniz.dir\\miniz_tdef.c.obj -c C:\\Users\\AlKotlin\\Desktop\\laba\\build\\_deps\\miniz_fetch-src\\miniz_tdef.c",
+  "file": "C:/Users/AlKotlin/Desktop/laba/build/_deps/miniz_fetch-src/miniz_tdef.c",
+  "output": "_deps/miniz_fetch-build/CMakeFiles/miniz.dir/miniz_tdef.c.obj"
+},
+{
+  "directory": "C:/Users/AlKotlin/Desktop/laba/build/_deps/pugixml_fetch-build",
+  "command": "\"C:\\Users\\AlKotlin\\Downloads\\Telegram Desktop\\x86_64-13.1.0-release-posix-seh-ucrt-rt_v111-rev1\\mingw64\\bin\\c++.exe\" -DGIT_COMMIT_ID=\\\"98684fc4\\\" -DGIT_COMMIT_ID_TIME=\"\\\"2026-11-17 16:23:50 +0300\\\"\" @CMakeFiles\\pugixml-static.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=c++17 -fvisibility=hidden -fno-keep-inline-dllexport -o CMakeFiles\\pugixml-static.dir\\src\\pugixml.cpp.obj -c C:\\Users\\AlKotlin\\Desktop\\laba\\build\\_deps\\pugixml_fetch-src\\src\\pugixml.cpp",
+  "file": "C:/Users/AlKotlin/Desktop/laba/build/_deps/pugixml_fetch-src/src/pugixml.cpp",
+  "output": "_deps/pugixml_fetch-build/CMakeFiles/pugixml-static.dir/src/pugixml.cpp.obj"
+},
+{
+  "directory": "C:/Users/AlKotlin/Desktop/laba/build/external/OpenXLSX/OpenXLSX",
+  "command": "\"C:\\Users\\AlKotlin\\Downloads\\Telegram Desktop\\x86_64-13.1.0-release-posix-seh-ucrt-rt_v111-rev1\\mingw64\\bin\\c++.exe\" -DCHARCONV_ENABLED -DENABLE_NOWIDE -DGIT_COMMIT_ID=\\\"98684fc4\\\" -DGIT_COMMIT_ID_TIME=\"\\\"2026-11-17 16:23:50 +0300\\\"\" -DMINIZ_STATIC_DEFINE -DNOWIDE_NO_LIB -DOPENXLSX_STATIC_DEFINE @CMakeFiles\\OpenXLSX.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=c++17 -fvisibility=hidden -fno-keep-inline-dllexport -o CMakeFiles\\OpenXLSX.dir\\sources\\XLCell.cpp.obj -c C:\\Users\\AlKotlin\\Desktop\\laba\\external\\OpenXLSX\\OpenXLSX\\sources\\XLCell.cpp",
+  "file": "C:/Users/AlKotlin/Desktop/laba/external/OpenXLSX/OpenXLSX/sources/XLCell.cpp",
+  "output": "external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLCell.cpp.obj"
+},
+{
+  "directory": "C:/Users/AlKotlin/Desktop/laba/build/external/OpenXLSX/OpenXLSX",
+  "command": "\"C:\\Users\\AlKotlin\\Downloads\\Telegram Desktop\\x86_64-13.1.0-release-posix-seh-ucrt-rt_v111-rev1\\mingw64\\bin\\c++.exe\" -DCHARCONV_ENABLED -DENABLE_NOWIDE -DGIT_COMMIT_ID=\\\"98684fc4\\\" -DGIT_COMMIT_ID_TIME=\"\\\"2026-11-17 16:23:50 +0300\\\"\" -DMINIZ_STATIC_DEFINE -DNOWIDE_NO_LIB -DOPENXLSX_STATIC_DEFINE @CMakeFiles\\OpenXLSX.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=c++17 -fvisibility=hidden -fno-keep-inline-dllexport -o CMakeFiles\\OpenXLSX.dir\\sources\\XLCellIterator.cpp.obj -c C:\\Users\\AlKotlin\\Desktop\\laba\\external\\OpenXLSX\\OpenXLSX\\sources\\XLCellIterator.cpp",
+  "file": "C:/Users/AlKotlin/Desktop/laba/external/OpenXLSX/OpenXLSX/sources/XLCellIterator.cpp",
+  "output": "external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLCellIterator.cpp.obj"
+},
+{
+  "directory": "C:/Users/AlKotlin/Desktop/laba/build/external/OpenXLSX/OpenXLSX",
+  "command": "\"C:\\Users\\AlKotlin\\Downloads\\Telegram Desktop\\x86_64-13.1.0-release-posix-seh-ucrt-rt_v111-rev1\\mingw64\\bin\\c++.exe\" -DCHARCONV_ENABLED -DENABLE_NOWIDE -DGIT_COMMIT_ID=\\\"98684fc4\\\" -DGIT_COMMIT_ID_TIME=\"\\\"2026-11-17 16:23:50 +0300\\\"\" -DMINIZ_STATIC_DEFINE -DNOWIDE_NO_LIB -DOPENXLSX_STATIC_DEFINE @CMakeFiles\\OpenXLSX.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=c++17 -fvisibility=hidden -fno-keep-inline-dllexport -o CMakeFiles\\OpenXLSX.dir\\sources\\XLCellRange.cpp.obj -c C:\\Users\\AlKotlin\\Desktop\\laba\\external\\OpenXLSX\\OpenXLSX\\sources\\XLCellRange.cpp",
+  "file": "C:/Users/AlKotlin/Desktop/laba/external/OpenXLSX/OpenXLSX/sources/XLCellRange.cpp",
+  "output": "external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLCellRange.cpp.obj"
+},
+{
+  "directory": "C:/Users/AlKotlin/Desktop/laba/build/external/OpenXLSX/OpenXLSX",
+  "command": "\"C:\\Users\\AlKotlin\\Downloads\\Telegram Desktop\\x86_64-13.1.0-release-posix-seh-ucrt-rt_v111-rev1\\mingw64\\bin\\c++.exe\" -DCHARCONV_ENABLED -DENABLE_NOWIDE -DGIT_COMMIT_ID=\\\"98684fc4\\\" -DGIT_COMMIT_ID_TIME=\"\\\"2026-11-17 16:23:50 +0300\\\"\" -DMINIZ_STATIC_DEFINE -DNOWIDE_NO_LIB -DOPENXLSX_STATIC_DEFINE @CMakeFiles\\OpenXLSX.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=c++17 -fvisibility=hidden -fno-keep-inline-dllexport -o CMakeFiles\\OpenXLSX.dir\\sources\\XLCellReference.cpp.obj -c C:\\Users\\AlKotlin\\Desktop\\laba\\external\\OpenXLSX\\OpenXLSX\\sources\\XLCellReference.cpp",
+  "file": "C:/Users/AlKotlin/Desktop/laba/external/OpenXLSX/OpenXLSX/sources/XLCellReference.cpp",
+  "output": "external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLCellReference.cpp.obj"
+},
+{
+  "directory": "C:/Users/AlKotlin/Desktop/laba/build/external/OpenXLSX/OpenXLSX",
+  "command": "\"C:\\Users\\AlKotlin\\Downloads\\Telegram Desktop\\x86_64-13.1.0-release-posix-seh-ucrt-rt_v111-rev1\\mingw64\\bin\\c++.exe\" -DCHARCONV_ENABLED -DENABLE_NOWIDE -DGIT_COMMIT_ID=\\\"98684fc4\\\" -DGIT_COMMIT_ID_TIME=\"\\\"2026-11-17 16:23:50 +0300\\\"\" -DMINIZ_STATIC_DEFINE -DNOWIDE_NO_LIB -DOPENXLSX_STATIC_DEFINE @CMakeFiles\\OpenXLSX.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=c++17 -fvisibility=hidden -fno-keep-inline-dllexport -o CMakeFiles\\OpenXLSX.dir\\sources\\XLCellValue.cpp.obj -c C:\\Users\\AlKotlin\\Desktop\\laba\\external\\OpenXLSX\\OpenXLSX\\sources\\XLCellValue.cpp",
+  "file": "C:/Users/AlKotlin/Desktop/laba/external/OpenXLSX/OpenXLSX/sources/XLCellValue.cpp",
+  "output": "external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLCellValue.cpp.obj"
+},
+{
+  "directory": "C:/Users/AlKotlin/Desktop/laba/build/external/OpenXLSX/OpenXLSX",
+  "command": "\"C:\\Users\\AlKotlin\\Downloads\\Telegram Desktop\\x86_64-13.1.0-release-posix-seh-ucrt-rt_v111-rev1\\mingw64\\bin\\c++.exe\" -DCHARCONV_ENABLED -DENABLE_NOWIDE -DGIT_COMMIT_ID=\\\"98684fc4\\\" -DGIT_COMMIT_ID_TIME=\"\\\"2026-11-17 16:23:50 +0300\\\"\" -DMINIZ_STATIC_DEFINE -DNOWIDE_NO_LIB -DOPENXLSX_STATIC_DEFINE @CMakeFiles\\OpenXLSX.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=c++17 -fvisibility=hidden -fno-keep-inline-dllexport -o CMakeFiles\\OpenXLSX.dir\\sources\\XLColor.cpp.obj -c C:\\Users\\AlKotlin\\Desktop\\laba\\external\\OpenXLSX\\OpenXLSX\\sources\\XLColor.cpp",
+  "file": "C:/Users/AlKotlin/Desktop/laba/external/OpenXLSX/OpenXLSX/sources/XLColor.cpp",
+  "output": "external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLColor.cpp.obj"
+},
+{
+  "directory": "C:/Users/AlKotlin/Desktop/laba/build/external/OpenXLSX/OpenXLSX",
+  "command": "\"C:\\Users\\AlKotlin\\Downloads\\Telegram Desktop\\x86_64-13.1.0-release-posix-seh-ucrt-rt_v111-rev1\\mingw64\\bin\\c++.exe\" -DCHARCONV_ENABLED -DENABLE_NOWIDE -DGIT_COMMIT_ID=\\\"98684fc4\\\" -DGIT_COMMIT_ID_TIME=\"\\\"2026-11-17 16:23:50 +0300\\\"\" -DMINIZ_STATIC_DEFINE -DNOWIDE_NO_LIB -DOPENXLSX_STATIC_DEFINE @CMakeFiles\\OpenXLSX.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=c++17 -fvisibility=hidden -fno-keep-inline-dllexport -o CMakeFiles\\OpenXLSX.dir\\sources\\XLColumn.cpp.obj -c C:\\Users\\AlKotlin\\Desktop\\laba\\external\\OpenXLSX\\OpenXLSX\\sources\\XLColumn.cpp",
+  "file": "C:/Users/AlKotlin/Desktop/laba/external/OpenXLSX/OpenXLSX/sources/XLColumn.cpp",
+  "output": "external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLColumn.cpp.obj"
+},
+{
+  "directory": "C:/Users/AlKotlin/Desktop/laba/build/external/OpenXLSX/OpenXLSX",
+  "command": "\"C:\\Users\\AlKotlin\\Downloads\\Telegram Desktop\\x86_64-13.1.0-release-posix-seh-ucrt-rt_v111-rev1\\mingw64\\bin\\c++.exe\" -DCHARCONV_ENABLED -DENABLE_NOWIDE -DGIT_COMMIT_ID=\\\"98684fc4\\\" -DGIT_COMMIT_ID_TIME=\"\\\"2026-11-17 16:23:50 +0300\\\"\" -DMINIZ_STATIC_DEFINE -DNOWIDE_NO_LIB -DOPENXLSX_STATIC_DEFINE @CMakeFiles\\OpenXLSX.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=c++17 -fvisibility=hidden -fno-keep-inline-dllexport -o CMakeFiles\\OpenXLSX.dir\\sources\\XLComments.cpp.obj -c C:\\Users\\AlKotlin\\Desktop\\laba\\external\\OpenXLSX\\OpenXLSX\\sources\\XLComments.cpp",
+  "file": "C:/Users/AlKotlin/Desktop/laba/external/OpenXLSX/OpenXLSX/sources/XLComments.cpp",
+  "output": "external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLComments.cpp.obj"
+},
+{
+  "directory": "C:/Users/AlKotlin/Desktop/laba/build/external/OpenXLSX/OpenXLSX",
+  "command": "\"C:\\Users\\AlKotlin\\Downloads\\Telegram Desktop\\x86_64-13.1.0-release-posix-seh-ucrt-rt_v111-rev1\\mingw64\\bin\\c++.exe\" -DCHARCONV_ENABLED -DENABLE_NOWIDE -DGIT_COMMIT_ID=\\\"98684fc4\\\" -DGIT_COMMIT_ID_TIME=\"\\\"2026-11-17 16:23:50 +0300\\\"\" -DMINIZ_STATIC_DEFINE -DNOWIDE_NO_LIB -DOPENXLSX_STATIC_DEFINE @CMakeFiles\\OpenXLSX.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=c++17 -fvisibility=hidden -fno-keep-inline-dllexport -o CMakeFiles\\OpenXLSX.dir\\sources\\XLContentTypes.cpp.obj -c C:\\Users\\AlKotlin\\Desktop\\laba\\external\\OpenXLSX\\OpenXLSX\\sources\\XLContentTypes.cpp",
+  "file": "C:/Users/AlKotlin/Desktop/laba/external/OpenXLSX/OpenXLSX/sources/XLContentTypes.cpp",
+  "output": "external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLContentTypes.cpp.obj"
+},
+{
+  "directory": "C:/Users/AlKotlin/Desktop/laba/build/external/OpenXLSX/OpenXLSX",
+  "command": "\"C:\\Users\\AlKotlin\\Downloads\\Telegram Desktop\\x86_64-13.1.0-release-posix-seh-ucrt-rt_v111-rev1\\mingw64\\bin\\c++.exe\" -DCHARCONV_ENABLED -DENABLE_NOWIDE -DGIT_COMMIT_ID=\\\"98684fc4\\\" -DGIT_COMMIT_ID_TIME=\"\\\"2026-11-17 16:23:50 +0300\\\"\" -DMINIZ_STATIC_DEFINE -DNOWIDE_NO_LIB -DOPENXLSX_STATIC_DEFINE @CMakeFiles\\OpenXLSX.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=c++17 -fvisibility=hidden -fno-keep-inline-dllexport -o CMakeFiles\\OpenXLSX.dir\\sources\\XLDateTime.cpp.obj -c C:\\Users\\AlKotlin\\Desktop\\laba\\external\\OpenXLSX\\OpenXLSX\\sources\\XLDateTime.cpp",
+  "file": "C:/Users/AlKotlin/Desktop/laba/external/OpenXLSX/OpenXLSX/sources/XLDateTime.cpp",
+  "output": "external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLDateTime.cpp.obj"
+},
+{
+  "directory": "C:/Users/AlKotlin/Desktop/laba/build/external/OpenXLSX/OpenXLSX",
+  "command": "\"C:\\Users\\AlKotlin\\Downloads\\Telegram Desktop\\x86_64-13.1.0-release-posix-seh-ucrt-rt_v111-rev1\\mingw64\\bin\\c++.exe\" -DCHARCONV_ENABLED -DENABLE_NOWIDE -DGIT_COMMIT_ID=\\\"98684fc4\\\" -DGIT_COMMIT_ID_TIME=\"\\\"2026-11-17 16:23:50 +0300\\\"\" -DMINIZ_STATIC_DEFINE -DNOWIDE_NO_LIB -DOPENXLSX_STATIC_DEFINE @CMakeFiles\\OpenXLSX.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=c++17 -fvisibility=hidden -fno-keep-inline-dllexport -o CMakeFiles\\OpenXLSX.dir\\sources\\XLDocument.cpp.obj -c C:\\Users\\AlKotlin\\Desktop\\laba\\external\\OpenXLSX\\OpenXLSX\\sources\\XLDocument.cpp",
+  "file": "C:/Users/AlKotlin/Desktop/laba/external/OpenXLSX/OpenXLSX/sources/XLDocument.cpp",
+  "output": "external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLDocument.cpp.obj"
+},
+{
+  "directory": "C:/Users/AlKotlin/Desktop/laba/build/external/OpenXLSX/OpenXLSX",
+  "command": "\"C:\\Users\\AlKotlin\\Downloads\\Telegram Desktop\\x86_64-13.1.0-release-posix-seh-ucrt-rt_v111-rev1\\mingw64\\bin\\c++.exe\" -DCHARCONV_ENABLED -DENABLE_NOWIDE -DGIT_COMMIT_ID=\\\"98684fc4\\\" -DGIT_COMMIT_ID_TIME=\"\\\"2026-11-17 16:23:50 +0300\\\"\" -DMINIZ_STATIC_DEFINE -DNOWIDE_NO_LIB -DOPENXLSX_STATIC_DEFINE @CMakeFiles\\OpenXLSX.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=c++17 -fvisibility=hidden -fno-keep-inline-dllexport -o CMakeFiles\\OpenXLSX.dir\\sources\\XLDrawing.cpp.obj -c C:\\Users\\AlKotlin\\Desktop\\laba\\external\\OpenXLSX\\OpenXLSX\\sources\\XLDrawing.cpp",
+  "file": "C:/Users/AlKotlin/Desktop/laba/external/OpenXLSX/OpenXLSX/sources/XLDrawing.cpp",
+  "output": "external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLDrawing.cpp.obj"
+},
+{
+  "directory": "C:/Users/AlKotlin/Desktop/laba/build/external/OpenXLSX/OpenXLSX",
+  "command": "\"C:\\Users\\AlKotlin\\Downloads\\Telegram Desktop\\x86_64-13.1.0-release-posix-seh-ucrt-rt_v111-rev1\\mingw64\\bin\\c++.exe\" -DCHARCONV_ENABLED -DENABLE_NOWIDE -DGIT_COMMIT_ID=\\\"98684fc4\\\" -DGIT_COMMIT_ID_TIME=\"\\\"2026-11-17 16:23:50 +0300\\\"\" -DMINIZ_STATIC_DEFINE -DNOWIDE_NO_LIB -DOPENXLSX_STATIC_DEFINE @CMakeFiles\\OpenXLSX.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=c++17 -fvisibility=hidden -fno-keep-inline-dllexport -o CMakeFiles\\OpenXLSX.dir\\sources\\XLFormula.cpp.obj -c C:\\Users\\AlKotlin\\Desktop\\laba\\external\\OpenXLSX\\OpenXLSX\\sources\\XLFormula.cpp",
+  "file": "C:/Users/AlKotlin/Desktop/laba/external/OpenXLSX/OpenXLSX/sources/XLFormula.cpp",
+  "output": "external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLFormula.cpp.obj"
+},
+{
+  "directory": "C:/Users/AlKotlin/Desktop/laba/build/external/OpenXLSX/OpenXLSX",
+  "command": "\"C:\\Users\\AlKotlin\\Downloads\\Telegram Desktop\\x86_64-13.1.0-release-posix-seh-ucrt-rt_v111-rev1\\mingw64\\bin\\c++.exe\" -DCHARCONV_ENABLED -DENABLE_NOWIDE -DGIT_COMMIT_ID=\\\"98684fc4\\\" -DGIT_COMMIT_ID_TIME=\"\\\"2026-11-17 16:23:50 +0300\\\"\" -DMINIZ_STATIC_DEFINE -DNOWIDE_NO_LIB -DOPENXLSX_STATIC_DEFINE @CMakeFiles\\OpenXLSX.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=c++17 -fvisibility=hidden -fno-keep-inline-dllexport -o CMakeFiles\\OpenXLSX.dir\\sources\\XLMergeCells.cpp.obj -c C:\\Users\\AlKotlin\\Desktop\\laba\\external\\OpenXLSX\\OpenXLSX\\sources\\XLMergeCells.cpp",
+  "file": "C:/Users/AlKotlin/Desktop/laba/external/OpenXLSX/OpenXLSX/sources/XLMergeCells.cpp",
+  "output": "external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLMergeCells.cpp.obj"
+},
+{
+  "directory": "C:/Users/AlKotlin/Desktop/laba/build/external/OpenXLSX/OpenXLSX",
+  "command": "\"C:\\Users\\AlKotlin\\Downloads\\Telegram Desktop\\x86_64-13.1.0-release-posix-seh-ucrt-rt_v111-rev1\\mingw64\\bin\\c++.exe\" -DCHARCONV_ENABLED -DENABLE_NOWIDE -DGIT_COMMIT_ID=\\\"98684fc4\\\" -DGIT_COMMIT_ID_TIME=\"\\\"2026-11-17 16:23:50 +0300\\\"\" -DMINIZ_STATIC_DEFINE -DNOWIDE_NO_LIB -DOPENXLSX_STATIC_DEFINE @CMakeFiles\\OpenXLSX.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=c++17 -fvisibility=hidden -fno-keep-inline-dllexport -o CMakeFiles\\OpenXLSX.dir\\sources\\XLProperties.cpp.obj -c C:\\Users\\AlKotlin\\Desktop\\laba\\external\\OpenXLSX\\OpenXLSX\\sources\\XLProperties.cpp",
+  "file": "C:/Users/AlKotlin/Desktop/laba/external/OpenXLSX/OpenXLSX/sources/XLProperties.cpp",
+  "output": "external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLProperties.cpp.obj"
+},
+{
+  "directory": "C:/Users/AlKotlin/Desktop/laba/build/external/OpenXLSX/OpenXLSX",
+  "command": "\"C:\\Users\\AlKotlin\\Downloads\\Telegram Desktop\\x86_64-13.1.0-release-posix-seh-ucrt-rt_v111-rev1\\mingw64\\bin\\c++.exe\" -DCHARCONV_ENABLED -DENABLE_NOWIDE -DGIT_COMMIT_ID=\\\"98684fc4\\\" -DGIT_COMMIT_ID_TIME=\"\\\"2026-11-17 16:23:50 +0300\\\"\" -DMINIZ_STATIC_DEFINE -DNOWIDE_NO_LIB -DOPENXLSX_STATIC_DEFINE @CMakeFiles\\OpenXLSX.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=c++17 -fvisibility=hidden -fno-keep-inline-dllexport -o CMakeFiles\\OpenXLSX.dir\\sources\\XLRelationships.cpp.obj -c C:\\Users\\AlKotlin\\Desktop\\laba\\external\\OpenXLSX\\OpenXLSX\\sources\\XLRelationships.cpp",
+  "file": "C:/Users/AlKotlin/Desktop/laba/external/OpenXLSX/OpenXLSX/sources/XLRelationships.cpp",
+  "output": "external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLRelationships.cpp.obj"
+},
+{
+  "directory": "C:/Users/AlKotlin/Desktop/laba/build/external/OpenXLSX/OpenXLSX",
+  "command": "\"C:\\Users\\AlKotlin\\Downloads\\Telegram Desktop\\x86_64-13.1.0-release-posix-seh-ucrt-rt_v111-rev1\\mingw64\\bin\\c++.exe\" -DCHARCONV_ENABLED -DENABLE_NOWIDE -DGIT_COMMIT_ID=\\\"98684fc4\\\" -DGIT_COMMIT_ID_TIME=\"\\\"2026-11-17 16:23:50 +0300\\\"\" -DMINIZ_STATIC_DEFINE -DNOWIDE_NO_LIB -DOPENXLSX_STATIC_DEFINE @CMakeFiles\\OpenXLSX.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=c++17 -fvisibility=hidden -fno-keep-inline-dllexport -o CMakeFiles\\OpenXLSX.dir\\sources\\XLRow.cpp.obj -c C:\\Users\\AlKotlin\\Desktop\\laba\\external\\OpenXLSX\\OpenXLSX\\sources\\XLRow.cpp",
+  "file": "C:/Users/AlKotlin/Desktop/laba/external/OpenXLSX/OpenXLSX/sources/XLRow.cpp",
+  "output": "external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLRow.cpp.obj"
+},
+{
+  "directory": "C:/Users/AlKotlin/Desktop/laba/build/external/OpenXLSX/OpenXLSX",
+  "command": "\"C:\\Users\\AlKotlin\\Downloads\\Telegram Desktop\\x86_64-13.1.0-release-posix-seh-ucrt-rt_v111-rev1\\mingw64\\bin\\c++.exe\" -DCHARCONV_ENABLED -DENABLE_NOWIDE -DGIT_COMMIT_ID=\\\"98684fc4\\\" -DGIT_COMMIT_ID_TIME=\"\\\"2026-11-17 16:23:50 +0300\\\"\" -DMINIZ_STATIC_DEFINE -DNOWIDE_NO_LIB -DOPENXLSX_STATIC_DEFINE @CMakeFiles\\OpenXLSX.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=c++17 -fvisibility=hidden -fno-keep-inline-dllexport -o CMakeFiles\\OpenXLSX.dir\\sources\\XLRowData.cpp.obj -c C:\\Users\\AlKotlin\\Desktop\\laba\\external\\OpenXLSX\\OpenXLSX\\sources\\XLRowData.cpp",
+  "file": "C:/Users/AlKotlin/Desktop/laba/external/OpenXLSX/OpenXLSX/sources/XLRowData.cpp",
+  "output": "external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLRowData.cpp.obj"
+},
+{
+  "directory": "C:/Users/AlKotlin/Desktop/laba/build/external/OpenXLSX/OpenXLSX",
+  "command": "\"C:\\Users\\AlKotlin\\Downloads\\Telegram Desktop\\x86_64-13.1.0-release-posix-seh-ucrt-rt_v111-rev1\\mingw64\\bin\\c++.exe\" -DCHARCONV_ENABLED -DENABLE_NOWIDE -DGIT_COMMIT_ID=\\\"98684fc4\\\" -DGIT_COMMIT_ID_TIME=\"\\\"2026-11-17 16:23:50 +0300\\\"\" -DMINIZ_STATIC_DEFINE -DNOWIDE_NO_LIB -DOPENXLSX_STATIC_DEFINE @CMakeFiles\\OpenXLSX.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=c++17 -fvisibility=hidden -fno-keep-inline-dllexport -o CMakeFiles\\OpenXLSX.dir\\sources\\XLSharedStrings.cpp.obj -c C:\\Users\\AlKotlin\\Desktop\\laba\\external\\OpenXLSX\\OpenXLSX\\sources\\XLSharedStrings.cpp",
+  "file": "C:/Users/AlKotlin/Desktop/laba/external/OpenXLSX/OpenXLSX/sources/XLSharedStrings.cpp",
+  "output": "external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLSharedStrings.cpp.obj"
+},
+{
+  "directory": "C:/Users/AlKotlin/Desktop/laba/build/external/OpenXLSX/OpenXLSX",
+  "command": "\"C:\\Users\\AlKotlin\\Downloads\\Telegram Desktop\\x86_64-13.1.0-release-posix-seh-ucrt-rt_v111-rev1\\mingw64\\bin\\c++.exe\" -DCHARCONV_ENABLED -DENABLE_NOWIDE -DGIT_COMMIT_ID=\\\"98684fc4\\\" -DGIT_COMMIT_ID_TIME=\"\\\"2026-11-17 16:23:50 +0300\\\"\" -DMINIZ_STATIC_DEFINE -DNOWIDE_NO_LIB -DOPENXLSX_STATIC_DEFINE @CMakeFiles\\OpenXLSX.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=c++17 -fvisibility=hidden -fno-keep-inline-dllexport -o CMakeFiles\\OpenXLSX.dir\\sources\\XLSheet.cpp.obj -c C:\\Users\\AlKotlin\\Desktop\\laba\\external\\OpenXLSX\\OpenXLSX\\sources\\XLSheet.cpp",
+  "file": "C:/Users/AlKotlin/Desktop/laba/external/OpenXLSX/OpenXLSX/sources/XLSheet.cpp",
+  "output": "external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLSheet.cpp.obj"
+},
+{
+  "directory": "C:/Users/AlKotlin/Desktop/laba/build/external/OpenXLSX/OpenXLSX",
+  "command": "\"C:\\Users\\AlKotlin\\Downloads\\Telegram Desktop\\x86_64-13.1.0-release-posix-seh-ucrt-rt_v111-rev1\\mingw64\\bin\\c++.exe\" -DCHARCONV_ENABLED -DENABLE_NOWIDE -DGIT_COMMIT_ID=\\\"98684fc4\\\" -DGIT_COMMIT_ID_TIME=\"\\\"2026-11-17 16:23:50 +0300\\\"\" -DMINIZ_STATIC_DEFINE -DNOWIDE_NO_LIB -DOPENXLSX_STATIC_DEFINE @CMakeFiles\\OpenXLSX.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=c++17 -fvisibility=hidden -fno-keep-inline-dllexport -o CMakeFiles\\OpenXLSX.dir\\sources\\XLStyles.cpp.obj -c C:\\Users\\AlKotlin\\Desktop\\laba\\external\\OpenXLSX\\OpenXLSX\\sources\\XLStyles.cpp",
+  "file": "C:/Users/AlKotlin/Desktop/laba/external/OpenXLSX/OpenXLSX/sources/XLStyles.cpp",
+  "output": "external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLStyles.cpp.obj"
+},
+{
+  "directory": "C:/Users/AlKotlin/Desktop/laba/build/external/OpenXLSX/OpenXLSX",
+  "command": "\"C:\\Users\\AlKotlin\\Downloads\\Telegram Desktop\\x86_64-13.1.0-release-posix-seh-ucrt-rt_v111-rev1\\mingw64\\bin\\c++.exe\" -DCHARCONV_ENABLED -DENABLE_NOWIDE -DGIT_COMMIT_ID=\\\"98684fc4\\\" -DGIT_COMMIT_ID_TIME=\"\\\"2026-11-17 16:23:50 +0300\\\"\" -DMINIZ_STATIC_DEFINE -DNOWIDE_NO_LIB -DOPENXLSX_STATIC_DEFINE @CMakeFiles\\OpenXLSX.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=c++17 -fvisibility=hidden -fno-keep-inline-dllexport -o CMakeFiles\\OpenXLSX.dir\\sources\\XLTables.cpp.obj -c C:\\Users\\AlKotlin\\Desktop\\laba\\external\\OpenXLSX\\OpenXLSX\\sources\\XLTables.cpp",
+  "file": "C:/Users/AlKotlin/Desktop/laba/external/OpenXLSX/OpenXLSX/sources/XLTables.cpp",
+  "output": "external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLTables.cpp.obj"
+},
+{
+  "directory": "C:/Users/AlKotlin/Desktop/laba/build/external/OpenXLSX/OpenXLSX",
+  "command": "\"C:\\Users\\AlKotlin\\Downloads\\Telegram Desktop\\x86_64-13.1.0-release-posix-seh-ucrt-rt_v111-rev1\\mingw64\\bin\\c++.exe\" -DCHARCONV_ENABLED -DENABLE_NOWIDE -DGIT_COMMIT_ID=\\\"98684fc4\\\" -DGIT_COMMIT_ID_TIME=\"\\\"2026-11-17 16:23:50 +0300\\\"\" -DMINIZ_STATIC_DEFINE -DNOWIDE_NO_LIB -DOPENXLSX_STATIC_DEFINE @CMakeFiles\\OpenXLSX.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=c++17 -fvisibility=hidden -fno-keep-inline-dllexport -o CMakeFiles\\OpenXLSX.dir\\sources\\XLWorkbook.cpp.obj -c C:\\Users\\AlKotlin\\Desktop\\laba\\external\\OpenXLSX\\OpenXLSX\\sources\\XLWorkbook.cpp",
+  "file": "C:/Users/AlKotlin/Desktop/laba/external/OpenXLSX/OpenXLSX/sources/XLWorkbook.cpp",
+  "output": "external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLWorkbook.cpp.obj"
+},
+{
+  "directory": "C:/Users/AlKotlin/Desktop/laba/build/external/OpenXLSX/OpenXLSX",
+  "command": "\"C:\\Users\\AlKotlin\\Downloads\\Telegram Desktop\\x86_64-13.1.0-release-posix-seh-ucrt-rt_v111-rev1\\mingw64\\bin\\c++.exe\" -DCHARCONV_ENABLED -DENABLE_NOWIDE -DGIT_COMMIT_ID=\\\"98684fc4\\\" -DGIT_COMMIT_ID_TIME=\"\\\"2026-11-17 16:23:50 +0300\\\"\" -DMINIZ_STATIC_DEFINE -DNOWIDE_NO_LIB -DOPENXLSX_STATIC_DEFINE @CMakeFiles\\OpenXLSX.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=c++17 -fvisibility=hidden -fno-keep-inline-dllexport -o CMakeFiles\\OpenXLSX.dir\\sources\\XLXmlData.cpp.obj -c C:\\Users\\AlKotlin\\Desktop\\laba\\external\\OpenXLSX\\OpenXLSX\\sources\\XLXmlData.cpp",
+  "file": "C:/Users/AlKotlin/Desktop/laba/external/OpenXLSX/OpenXLSX/sources/XLXmlData.cpp",
+  "output": "external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLXmlData.cpp.obj"
+},
+{
+  "directory": "C:/Users/AlKotlin/Desktop/laba/build/external/OpenXLSX/OpenXLSX",
+  "command": "\"C:\\Users\\AlKotlin\\Downloads\\Telegram Desktop\\x86_64-13.1.0-release-posix-seh-ucrt-rt_v111-rev1\\mingw64\\bin\\c++.exe\" -DCHARCONV_ENABLED -DENABLE_NOWIDE -DGIT_COMMIT_ID=\\\"98684fc4\\\" -DGIT_COMMIT_ID_TIME=\"\\\"2026-11-17 16:23:50 +0300\\\"\" -DMINIZ_STATIC_DEFINE -DNOWIDE_NO_LIB -DOPENXLSX_STATIC_DEFINE @CMakeFiles\\OpenXLSX.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=c++17 -fvisibility=hidden -fno-keep-inline-dllexport -o CMakeFiles\\OpenXLSX.dir\\sources\\XLXmlFile.cpp.obj -c C:\\Users\\AlKotlin\\Desktop\\laba\\external\\OpenXLSX\\OpenXLSX\\sources\\XLXmlFile.cpp",
+  "file": "C:/Users/AlKotlin/Desktop/laba/external/OpenXLSX/OpenXLSX/sources/XLXmlFile.cpp",
+  "output": "external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLXmlFile.cpp.obj"
+},
+{
+  "directory": "C:/Users/AlKotlin/Desktop/laba/build/external/OpenXLSX/OpenXLSX",
+  "command": "\"C:\\Users\\AlKotlin\\Downloads\\Telegram Desktop\\x86_64-13.1.0-release-posix-seh-ucrt-rt_v111-rev1\\mingw64\\bin\\c++.exe\" -DCHARCONV_ENABLED -DENABLE_NOWIDE -DGIT_COMMIT_ID=\\\"98684fc4\\\" -DGIT_COMMIT_ID_TIME=\"\\\"2026-11-17 16:23:50 +0300\\\"\" -DMINIZ_STATIC_DEFINE -DNOWIDE_NO_LIB -DOPENXLSX_STATIC_DEFINE @CMakeFiles\\OpenXLSX.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=c++17 -fvisibility=hidden -fno-keep-inline-dllexport -o CMakeFiles\\OpenXLSX.dir\\sources\\XLXmlParser.cpp.obj -c C:\\Users\\AlKotlin\\Desktop\\laba\\external\\OpenXLSX\\OpenXLSX\\sources\\XLXmlParser.cpp",
+  "file": "C:/Users/AlKotlin/Desktop/laba/external/OpenXLSX/OpenXLSX/sources/XLXmlParser.cpp",
+  "output": "external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLXmlParser.cpp.obj"
+},
+{
+  "directory": "C:/Users/AlKotlin/Desktop/laba/build/external/OpenXLSX/OpenXLSX",
+  "command": "\"C:\\Users\\AlKotlin\\Downloads\\Telegram Desktop\\x86_64-13.1.0-release-posix-seh-ucrt-rt_v111-rev1\\mingw64\\bin\\c++.exe\" -DCHARCONV_ENABLED -DENABLE_NOWIDE -DGIT_COMMIT_ID=\\\"98684fc4\\\" -DGIT_COMMIT_ID_TIME=\"\\\"2026-11-17 16:23:50 +0300\\\"\" -DMINIZ_STATIC_DEFINE -DNOWIDE_NO_LIB -DOPENXLSX_STATIC_DEFINE @CMakeFiles\\OpenXLSX.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=c++17 -fvisibility=hidden -fno-keep-inline-dllexport -o CMakeFiles\\OpenXLSX.dir\\sources\\XLZipArchive.cpp.obj -c C:\\Users\\AlKotlin\\Desktop\\laba\\external\\OpenXLSX\\OpenXLSX\\sources\\XLZipArchive.cpp",
+  "file": "C:/Users/AlKotlin/Desktop/laba/external/OpenXLSX/OpenXLSX/sources/XLZipArchive.cpp",
+  "output": "external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLZipArchive.cpp.obj"
+}
+]

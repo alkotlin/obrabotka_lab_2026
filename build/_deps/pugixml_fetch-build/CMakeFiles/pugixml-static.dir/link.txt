@@ -1,0 +1,2 @@
+"C:\Users\AlKotlin\Downloads\Telegram Desktop\x86_64-13.1.0-release-posix-seh-ucrt-rt_v111-rev1\mingw64\bin\ar.exe" qc ..\..\output\libpugixml.a "CMakeFiles/pugixml-static.dir/src/pugixml.cpp.obj"
+"C:\Users\AlKotlin\Downloads\Telegram Desktop\x86_64-13.1.0-release-posix-seh-ucrt-rt_v111-rev1\mingw64\bin\ranlib.exe" ..\..\output\libpugixml.a

@@ -1,0 +1,3 @@
+C:/Users/AlKotlin/Desktop/laba/build/_deps/pugixml_fetch-subbuild/CMakeFiles/pugixml_fetch-populate.dir
+C:/Users/AlKotlin/Desktop/laba/build/_deps/pugixml_fetch-subbuild/CMakeFiles/edit_cache.dir
+C:/Users/AlKotlin/Desktop/laba/build/_deps/pugixml_fetch-subbuild/CMakeFiles/rebuild_cache.dir

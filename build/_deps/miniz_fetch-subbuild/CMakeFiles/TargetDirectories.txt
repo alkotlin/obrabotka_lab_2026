@@ -1,0 +1,3 @@
+C:/Users/AlKotlin/Desktop/laba/build/_deps/miniz_fetch-subbuild/CMakeFiles/miniz_fetch-populate.dir
+C:/Users/AlKotlin/Desktop/laba/build/_deps/miniz_fetch-subbuild/CMakeFiles/edit_cache.dir
+C:/Users/AlKotlin/Desktop/laba/build/_deps/miniz_fetch-subbuild/CMakeFiles/rebuild_cache.dir

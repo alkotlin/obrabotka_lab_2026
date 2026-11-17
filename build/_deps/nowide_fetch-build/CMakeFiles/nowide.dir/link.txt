@@ -1,0 +1,2 @@
+"C:\Users\AlKotlin\Downloads\Telegram Desktop\x86_64-13.1.0-release-posix-seh-ucrt-rt_v111-rev1\mingw64\bin\ar.exe" qc ..\..\output\libnowide.a CMakeFiles/nowide.dir/src/console_buffer.cpp.obj CMakeFiles/nowide.dir/src/cstdio.cpp.obj CMakeFiles/nowide.dir/src/cstdlib.cpp.obj CMakeFiles/nowide.dir/src/filebuf.cpp.obj CMakeFiles/nowide.dir/src/iostream.cpp.obj CMakeFiles/nowide.dir/src/stat.cpp.obj
+"C:\Users\AlKotlin\Downloads\Telegram Desktop\x86_64-13.1.0-release-posix-seh-ucrt-rt_v111-rev1\mingw64\bin\ranlib.exe" ..\..\output\libnowide.a
