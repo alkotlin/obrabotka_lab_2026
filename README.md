@@ -58,5 +58,5 @@ Mac: в Терминале
 
 Сборка	                          **cmake --build build**
 
-Запуск                          	**build\MyProject.exe**
+Запуск                          	**./build/MyProject.exe**
 
