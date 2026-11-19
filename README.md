@@ -38,4 +38,18 @@
 7) Тестирование и отладка
   Написать модульные тесты для физических величин, матриц и математических методов.
   Проверить граничные случаи: деление на ноль, несовместимые размерности, пустые данные.
-  Добавить примеры лабораторных расчётов для проверки корректност
+  Добавить примеры лабораторных расчётов для проверки корректности
+
+**Как скачать и установить CMake**
+
+Windows: Через winget (рекомендуется, встроен в Windows)
+  _winget install --id=Kitware.CMake -e_
+
+Mac: в Терминале
+  */bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+  brew install cmake*
+**Действие	                        Команда в cmd**
+Конфигурация  (создать build/)	  cmake -S . -B build
+Конфигурация с MinGW             	cmake -S . -B build -G "MinGW Makefiles"
+Сборка	                          cmake --build build
+Запуск                          	build\MyProject.exe
