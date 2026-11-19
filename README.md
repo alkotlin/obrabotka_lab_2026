@@ -54,11 +54,11 @@ Mac: в Терминале
   
 **Действие	                        Команда в cmd**
 
-Конфигурация  (создать build/)	  cmake -S . -B build
+Конфигурация  (создать build/)	  **cmake -S . -B build**
 
-Конфигурация с MinGW             	cmake -S . -B build -G "MinGW Makefiles"
+Конфигурация с MinGW              **cmake -S . -B build -G "MinGW Makefiles"**
 
-Сборка	                          cmake --build build
+Сборка	                          **cmake --build build**
 
-Запуск                          	build\MyProject.exe
+Запуск                          	**build\MyProject.exe**
 
