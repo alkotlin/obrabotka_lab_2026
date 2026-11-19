@@ -44,15 +44,12 @@ void addRowByUnit(Matrix& m,
     }
 }
 
-Matrix ExcelEnter() {
+Matrix ExcelEnter(const std::string& path) {
     try {
         OpenXLSX::XLDocument doc;
-        std::string path;
-        std::cout << "Enter path to .xlsx: ";
-        std::getline(std::cin, path);
         doc.open(path);
 
-        auto wks = doc.workbook().worksheet("Sheet1");
+        auto wks = doc.workbook().worksheet(1);
 
         auto get = [&](std::size_t r, std::size_t c) -> double {
             return wks.cell(r, c).value().get<double>();
@@ -64,14 +61,14 @@ Matrix ExcelEnter() {
         Matrix m;
 
         //  Единицы читаются из Excel
-        std::string unit1Name = getName(1, 2);
-        std::string unit2Name = getName(1, 4);
+        std::string unit1Name = getName(2, 1);
+        std::string unit2Name = getName(1, 1);
 
         std::cout << "row1 unit: " << unit1Name << "\n";
         std::cout << "row2 unit: " << unit2Name << "\n";
 
         addRowByUnit(m, unit1Name, getName(1, 1), get, 1, 2);
-        addRowByUnit(m, unit2Name, getName(1, 3), get, 3, 4);
+        addRowByUnit(m, unit2Name, getName(3, 1), get, 3, 4);
 
         return m;
     } catch (const std::exception& e) {
