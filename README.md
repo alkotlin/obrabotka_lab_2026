@@ -54,9 +54,7 @@ Mac: в Терминале
   
 **Действие	                        Команда в cmd**
 
-Конфигурация  (создать build/)	  **cmake -S . -B build**
-
-Конфигурация с MinGW              **cmake -S . -B build -G "MinGW Makefiles"**
+Конфигурация                      **cmake -S . -B build -G "MinGW Makefiles"**
 
 Сборка	                          **cmake --build build**
 
