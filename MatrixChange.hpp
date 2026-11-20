@@ -84,25 +84,25 @@ std::size_t Power(Matrix& m,
 }
 
 template <typename Unit, std::size_t N>
-std::size_t Summ(Matrix& m,
+std::size_t Sum(Matrix& m,
           std::size_t first,  double a,
           std::size_t second, double b,
           const std::string& name)
 {
     if (first >= m.rowCount() || second >= m.rowCount())
-        throw std::out_of_range("Summ: row index out of range");
+        throw std::out_of_range("Sum: row index out of range");
 
     auto* r1 = dynamic_cast<Row<Unit, N>*>(&m[first]);
     auto* r2 = dynamic_cast<Row<Unit, N>*>(&m[second]);
     if (!r1) throw std::runtime_error(
-        "Summ: строка " + std::to_string(first) + " — не Row<Unit, N>");
+        "Sum: строка " + std::to_string(first) + " — не Row<Unit, N>");
     if (!r2) throw std::runtime_error(
-        "Summ: строка " + std::to_string(second) + " — не Row<Unit, N>");
+        "Sum: строка " + std::to_string(second) + " — не Row<Unit, N>");
     addRow<Unit, N>(m, name, au::QuantityMaker<Unit>{});
     const std::size_t third = m.rowCount() - 1;
     auto* r3 = dynamic_cast<Row<Unit, N>*>(&m[third]);
     if (!r3) throw std::runtime_error(
-        "Summ: строка " + std::to_string(third) + " — не Row<Unit, N>");
+        "Sum: строка " + std::to_string(third) + " — не Row<Unit, N>");
 
     for (std::size_t i = 0; i < N; ++i) {
         (*r3)[i] = a * (*r1)[i] + b * (*r2)[i];
