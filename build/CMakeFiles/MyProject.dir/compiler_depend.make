@@ -273,16 +273,25 @@ CMakeFiles/MyProject.dir/Excel.cpp.obj: C:/Users/AlKotlin/Desktop/laba/Excel.cpp
   C:/Users/AlKotlin/Desktop/laba/au_all_units.hh
 
 CMakeFiles/MyProject.dir/main.cpp.obj: C:/Users/AlKotlin/Desktop/laba/main.cpp \
+  C:/Users/AlKotlin/Downloads/Telegram\ Desktop/x86_64-13.1.0-release-posix-seh-ucrt-rt_v111-rev1/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/algorithm \
+  C:/Users/AlKotlin/Downloads/Telegram\ Desktop/x86_64-13.1.0-release-posix-seh-ucrt-rt_v111-rev1/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/array \
+  C:/Users/AlKotlin/Downloads/Telegram\ Desktop/x86_64-13.1.0-release-posix-seh-ucrt-rt_v111-rev1/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward/auto_ptr.h \
   C:/Users/AlKotlin/Downloads/Telegram\ Desktop/x86_64-13.1.0-release-posix-seh-ucrt-rt_v111-rev1/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward/binders.h \
   C:/Users/AlKotlin/Downloads/Telegram\ Desktop/x86_64-13.1.0-release-posix-seh-ucrt-rt_v111-rev1/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bit \
+  C:/Users/AlKotlin/Downloads/Telegram\ Desktop/x86_64-13.1.0-release-posix-seh-ucrt-rt_v111-rev1/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/algorithmfwd.h \
+  C:/Users/AlKotlin/Downloads/Telegram\ Desktop/x86_64-13.1.0-release-posix-seh-ucrt-rt_v111-rev1/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/align.h \
   C:/Users/AlKotlin/Downloads/Telegram\ Desktop/x86_64-13.1.0-release-posix-seh-ucrt-rt_v111-rev1/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/alloc_traits.h \
+  C:/Users/AlKotlin/Downloads/Telegram\ Desktop/x86_64-13.1.0-release-posix-seh-ucrt-rt_v111-rev1/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/allocated_ptr.h \
   C:/Users/AlKotlin/Downloads/Telegram\ Desktop/x86_64-13.1.0-release-posix-seh-ucrt-rt_v111-rev1/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/allocator.h \
+  C:/Users/AlKotlin/Downloads/Telegram\ Desktop/x86_64-13.1.0-release-posix-seh-ucrt-rt_v111-rev1/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/atomic_base.h \
+  C:/Users/AlKotlin/Downloads/Telegram\ Desktop/x86_64-13.1.0-release-posix-seh-ucrt-rt_v111-rev1/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/atomic_lockfree_defines.h \
   C:/Users/AlKotlin/Downloads/Telegram\ Desktop/x86_64-13.1.0-release-posix-seh-ucrt-rt_v111-rev1/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/basic_ios.h \
   C:/Users/AlKotlin/Downloads/Telegram\ Desktop/x86_64-13.1.0-release-posix-seh-ucrt-rt_v111-rev1/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/basic_ios.tcc \
   C:/Users/AlKotlin/Downloads/Telegram\ Desktop/x86_64-13.1.0-release-posix-seh-ucrt-rt_v111-rev1/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/basic_string.h \
   C:/Users/AlKotlin/Downloads/Telegram\ Desktop/x86_64-13.1.0-release-posix-seh-ucrt-rt_v111-rev1/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/basic_string.tcc \
   C:/Users/AlKotlin/Downloads/Telegram\ Desktop/x86_64-13.1.0-release-posix-seh-ucrt-rt_v111-rev1/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/char_traits.h \
   C:/Users/AlKotlin/Downloads/Telegram\ Desktop/x86_64-13.1.0-release-posix-seh-ucrt-rt_v111-rev1/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/charconv.h \
+  C:/Users/AlKotlin/Downloads/Telegram\ Desktop/x86_64-13.1.0-release-posix-seh-ucrt-rt_v111-rev1/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/chrono.h \
   C:/Users/AlKotlin/Downloads/Telegram\ Desktop/x86_64-13.1.0-release-posix-seh-ucrt-rt_v111-rev1/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/concept_check.h \
   C:/Users/AlKotlin/Downloads/Telegram\ Desktop/x86_64-13.1.0-release-posix-seh-ucrt-rt_v111-rev1/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/cpp_type_traits.h \
   C:/Users/AlKotlin/Downloads/Telegram\ Desktop/x86_64-13.1.0-release-posix-seh-ucrt-rt_v111-rev1/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/cxxabi_forced.h \
@@ -308,40 +317,63 @@ CMakeFiles/MyProject.dir/main.cpp.obj: C:/Users/AlKotlin/Desktop/laba/main.cpp \
   C:/Users/AlKotlin/Downloads/Telegram\ Desktop/x86_64-13.1.0-release-posix-seh-ucrt-rt_v111-rev1/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/new_allocator.h \
   C:/Users/AlKotlin/Downloads/Telegram\ Desktop/x86_64-13.1.0-release-posix-seh-ucrt-rt_v111-rev1/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ostream.tcc \
   C:/Users/AlKotlin/Downloads/Telegram\ Desktop/x86_64-13.1.0-release-posix-seh-ucrt-rt_v111-rev1/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ostream_insert.h \
+  C:/Users/AlKotlin/Downloads/Telegram\ Desktop/x86_64-13.1.0-release-posix-seh-ucrt-rt_v111-rev1/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/parse_numbers.h \
   C:/Users/AlKotlin/Downloads/Telegram\ Desktop/x86_64-13.1.0-release-posix-seh-ucrt-rt_v111-rev1/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/postypes.h \
   C:/Users/AlKotlin/Downloads/Telegram\ Desktop/x86_64-13.1.0-release-posix-seh-ucrt-rt_v111-rev1/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/predefined_ops.h \
   C:/Users/AlKotlin/Downloads/Telegram\ Desktop/x86_64-13.1.0-release-posix-seh-ucrt-rt_v111-rev1/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ptr_traits.h \
   C:/Users/AlKotlin/Downloads/Telegram\ Desktop/x86_64-13.1.0-release-posix-seh-ucrt-rt_v111-rev1/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/range_access.h \
   C:/Users/AlKotlin/Downloads/Telegram\ Desktop/x86_64-13.1.0-release-posix-seh-ucrt-rt_v111-rev1/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/refwrap.h \
   C:/Users/AlKotlin/Downloads/Telegram\ Desktop/x86_64-13.1.0-release-posix-seh-ucrt-rt_v111-rev1/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/requires_hosted.h \
+  C:/Users/AlKotlin/Downloads/Telegram\ Desktop/x86_64-13.1.0-release-posix-seh-ucrt-rt_v111-rev1/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/shared_ptr.h \
+  C:/Users/AlKotlin/Downloads/Telegram\ Desktop/x86_64-13.1.0-release-posix-seh-ucrt-rt_v111-rev1/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/shared_ptr_atomic.h \
+  C:/Users/AlKotlin/Downloads/Telegram\ Desktop/x86_64-13.1.0-release-posix-seh-ucrt-rt_v111-rev1/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/shared_ptr_base.h \
+  C:/Users/AlKotlin/Downloads/Telegram\ Desktop/x86_64-13.1.0-release-posix-seh-ucrt-rt_v111-rev1/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/specfun.h \
   C:/Users/AlKotlin/Downloads/Telegram\ Desktop/x86_64-13.1.0-release-posix-seh-ucrt-rt_v111-rev1/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/std_abs.h \
+  C:/Users/AlKotlin/Downloads/Telegram\ Desktop/x86_64-13.1.0-release-posix-seh-ucrt-rt_v111-rev1/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_algo.h \
   C:/Users/AlKotlin/Downloads/Telegram\ Desktop/x86_64-13.1.0-release-posix-seh-ucrt-rt_v111-rev1/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_algobase.h \
+  C:/Users/AlKotlin/Downloads/Telegram\ Desktop/x86_64-13.1.0-release-posix-seh-ucrt-rt_v111-rev1/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_bvector.h \
   C:/Users/AlKotlin/Downloads/Telegram\ Desktop/x86_64-13.1.0-release-posix-seh-ucrt-rt_v111-rev1/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_construct.h \
   C:/Users/AlKotlin/Downloads/Telegram\ Desktop/x86_64-13.1.0-release-posix-seh-ucrt-rt_v111-rev1/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_function.h \
+  C:/Users/AlKotlin/Downloads/Telegram\ Desktop/x86_64-13.1.0-release-posix-seh-ucrt-rt_v111-rev1/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_heap.h \
   C:/Users/AlKotlin/Downloads/Telegram\ Desktop/x86_64-13.1.0-release-posix-seh-ucrt-rt_v111-rev1/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_iterator.h \
   C:/Users/AlKotlin/Downloads/Telegram\ Desktop/x86_64-13.1.0-release-posix-seh-ucrt-rt_v111-rev1/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_iterator_base_funcs.h \
   C:/Users/AlKotlin/Downloads/Telegram\ Desktop/x86_64-13.1.0-release-posix-seh-ucrt-rt_v111-rev1/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_iterator_base_types.h \
   C:/Users/AlKotlin/Downloads/Telegram\ Desktop/x86_64-13.1.0-release-posix-seh-ucrt-rt_v111-rev1/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_pair.h \
+  C:/Users/AlKotlin/Downloads/Telegram\ Desktop/x86_64-13.1.0-release-posix-seh-ucrt-rt_v111-rev1/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_raw_storage_iter.h \
+  C:/Users/AlKotlin/Downloads/Telegram\ Desktop/x86_64-13.1.0-release-posix-seh-ucrt-rt_v111-rev1/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_relops.h \
+  C:/Users/AlKotlin/Downloads/Telegram\ Desktop/x86_64-13.1.0-release-posix-seh-ucrt-rt_v111-rev1/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_tempbuf.h \
+  C:/Users/AlKotlin/Downloads/Telegram\ Desktop/x86_64-13.1.0-release-posix-seh-ucrt-rt_v111-rev1/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_uninitialized.h \
+  C:/Users/AlKotlin/Downloads/Telegram\ Desktop/x86_64-13.1.0-release-posix-seh-ucrt-rt_v111-rev1/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_vector.h \
   C:/Users/AlKotlin/Downloads/Telegram\ Desktop/x86_64-13.1.0-release-posix-seh-ucrt-rt_v111-rev1/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/streambuf.tcc \
   C:/Users/AlKotlin/Downloads/Telegram\ Desktop/x86_64-13.1.0-release-posix-seh-ucrt-rt_v111-rev1/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/streambuf_iterator.h \
   C:/Users/AlKotlin/Downloads/Telegram\ Desktop/x86_64-13.1.0-release-posix-seh-ucrt-rt_v111-rev1/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/string_view.tcc \
   C:/Users/AlKotlin/Downloads/Telegram\ Desktop/x86_64-13.1.0-release-posix-seh-ucrt-rt_v111-rev1/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stringfwd.h \
+  C:/Users/AlKotlin/Downloads/Telegram\ Desktop/x86_64-13.1.0-release-posix-seh-ucrt-rt_v111-rev1/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/uniform_int_dist.h \
+  C:/Users/AlKotlin/Downloads/Telegram\ Desktop/x86_64-13.1.0-release-posix-seh-ucrt-rt_v111-rev1/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/unique_ptr.h \
   C:/Users/AlKotlin/Downloads/Telegram\ Desktop/x86_64-13.1.0-release-posix-seh-ucrt-rt_v111-rev1/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/uses_allocator.h \
   C:/Users/AlKotlin/Downloads/Telegram\ Desktop/x86_64-13.1.0-release-posix-seh-ucrt-rt_v111-rev1/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/uses_allocator_args.h \
   C:/Users/AlKotlin/Downloads/Telegram\ Desktop/x86_64-13.1.0-release-posix-seh-ucrt-rt_v111-rev1/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/utility.h \
+  C:/Users/AlKotlin/Downloads/Telegram\ Desktop/x86_64-13.1.0-release-posix-seh-ucrt-rt_v111-rev1/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/vector.tcc \
   C:/Users/AlKotlin/Downloads/Telegram\ Desktop/x86_64-13.1.0-release-posix-seh-ucrt-rt_v111-rev1/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cctype \
   C:/Users/AlKotlin/Downloads/Telegram\ Desktop/x86_64-13.1.0-release-posix-seh-ucrt-rt_v111-rev1/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cerrno \
+  C:/Users/AlKotlin/Downloads/Telegram\ Desktop/x86_64-13.1.0-release-posix-seh-ucrt-rt_v111-rev1/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/chrono \
   C:/Users/AlKotlin/Downloads/Telegram\ Desktop/x86_64-13.1.0-release-posix-seh-ucrt-rt_v111-rev1/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/clocale \
+  C:/Users/AlKotlin/Downloads/Telegram\ Desktop/x86_64-13.1.0-release-posix-seh-ucrt-rt_v111-rev1/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cmath \
+  C:/Users/AlKotlin/Downloads/Telegram\ Desktop/x86_64-13.1.0-release-posix-seh-ucrt-rt_v111-rev1/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/compare \
   C:/Users/AlKotlin/Downloads/Telegram\ Desktop/x86_64-13.1.0-release-posix-seh-ucrt-rt_v111-rev1/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cstddef \
+  C:/Users/AlKotlin/Downloads/Telegram\ Desktop/x86_64-13.1.0-release-posix-seh-ucrt-rt_v111-rev1/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cstdint \
   C:/Users/AlKotlin/Downloads/Telegram\ Desktop/x86_64-13.1.0-release-posix-seh-ucrt-rt_v111-rev1/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cstdio \
   C:/Users/AlKotlin/Downloads/Telegram\ Desktop/x86_64-13.1.0-release-posix-seh-ucrt-rt_v111-rev1/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cstdlib \
+  C:/Users/AlKotlin/Downloads/Telegram\ Desktop/x86_64-13.1.0-release-posix-seh-ucrt-rt_v111-rev1/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ctime \
   C:/Users/AlKotlin/Downloads/Telegram\ Desktop/x86_64-13.1.0-release-posix-seh-ucrt-rt_v111-rev1/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cwchar \
   C:/Users/AlKotlin/Downloads/Telegram\ Desktop/x86_64-13.1.0-release-posix-seh-ucrt-rt_v111-rev1/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cwctype \
   C:/Users/AlKotlin/Downloads/Telegram\ Desktop/x86_64-13.1.0-release-posix-seh-ucrt-rt_v111-rev1/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/debug/assertions.h \
   C:/Users/AlKotlin/Downloads/Telegram\ Desktop/x86_64-13.1.0-release-posix-seh-ucrt-rt_v111-rev1/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/debug/debug.h \
   C:/Users/AlKotlin/Downloads/Telegram\ Desktop/x86_64-13.1.0-release-posix-seh-ucrt-rt_v111-rev1/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/exception \
+  C:/Users/AlKotlin/Downloads/Telegram\ Desktop/x86_64-13.1.0-release-posix-seh-ucrt-rt_v111-rev1/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ext/aligned_buffer.h \
   C:/Users/AlKotlin/Downloads/Telegram\ Desktop/x86_64-13.1.0-release-posix-seh-ucrt-rt_v111-rev1/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ext/alloc_traits.h \
   C:/Users/AlKotlin/Downloads/Telegram\ Desktop/x86_64-13.1.0-release-posix-seh-ucrt-rt_v111-rev1/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ext/atomicity.h \
+  C:/Users/AlKotlin/Downloads/Telegram\ Desktop/x86_64-13.1.0-release-posix-seh-ucrt-rt_v111-rev1/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ext/concurrence.h \
   C:/Users/AlKotlin/Downloads/Telegram\ Desktop/x86_64-13.1.0-release-posix-seh-ucrt-rt_v111-rev1/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ext/numeric_traits.h \
   C:/Users/AlKotlin/Downloads/Telegram\ Desktop/x86_64-13.1.0-release-posix-seh-ucrt-rt_v111-rev1/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ext/string_conversions.h \
   C:/Users/AlKotlin/Downloads/Telegram\ Desktop/x86_64-13.1.0-release-posix-seh-ucrt-rt_v111-rev1/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ext/type_traits.h \
@@ -350,18 +382,38 @@ CMakeFiles/MyProject.dir/main.cpp.obj: C:/Users/AlKotlin/Desktop/laba/main.cpp \
   C:/Users/AlKotlin/Downloads/Telegram\ Desktop/x86_64-13.1.0-release-posix-seh-ucrt-rt_v111-rev1/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/iosfwd \
   C:/Users/AlKotlin/Downloads/Telegram\ Desktop/x86_64-13.1.0-release-posix-seh-ucrt-rt_v111-rev1/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/iostream \
   C:/Users/AlKotlin/Downloads/Telegram\ Desktop/x86_64-13.1.0-release-posix-seh-ucrt-rt_v111-rev1/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/istream \
+  C:/Users/AlKotlin/Downloads/Telegram\ Desktop/x86_64-13.1.0-release-posix-seh-ucrt-rt_v111-rev1/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/limits \
+  C:/Users/AlKotlin/Downloads/Telegram\ Desktop/x86_64-13.1.0-release-posix-seh-ucrt-rt_v111-rev1/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/memory \
   C:/Users/AlKotlin/Downloads/Telegram\ Desktop/x86_64-13.1.0-release-posix-seh-ucrt-rt_v111-rev1/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/new \
   C:/Users/AlKotlin/Downloads/Telegram\ Desktop/x86_64-13.1.0-release-posix-seh-ucrt-rt_v111-rev1/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ostream \
+  C:/Users/AlKotlin/Downloads/Telegram\ Desktop/x86_64-13.1.0-release-posix-seh-ucrt-rt_v111-rev1/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/pstl/execution_defs.h \
+  C:/Users/AlKotlin/Downloads/Telegram\ Desktop/x86_64-13.1.0-release-posix-seh-ucrt-rt_v111-rev1/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/pstl/glue_algorithm_defs.h \
+  C:/Users/AlKotlin/Downloads/Telegram\ Desktop/x86_64-13.1.0-release-posix-seh-ucrt-rt_v111-rev1/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/pstl/glue_memory_defs.h \
   C:/Users/AlKotlin/Downloads/Telegram\ Desktop/x86_64-13.1.0-release-posix-seh-ucrt-rt_v111-rev1/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/pstl/pstl_config.h \
+  C:/Users/AlKotlin/Downloads/Telegram\ Desktop/x86_64-13.1.0-release-posix-seh-ucrt-rt_v111-rev1/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ratio \
   C:/Users/AlKotlin/Downloads/Telegram\ Desktop/x86_64-13.1.0-release-posix-seh-ucrt-rt_v111-rev1/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/stdexcept \
   C:/Users/AlKotlin/Downloads/Telegram\ Desktop/x86_64-13.1.0-release-posix-seh-ucrt-rt_v111-rev1/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/stdlib.h \
   C:/Users/AlKotlin/Downloads/Telegram\ Desktop/x86_64-13.1.0-release-posix-seh-ucrt-rt_v111-rev1/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/streambuf \
   C:/Users/AlKotlin/Downloads/Telegram\ Desktop/x86_64-13.1.0-release-posix-seh-ucrt-rt_v111-rev1/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/string \
   C:/Users/AlKotlin/Downloads/Telegram\ Desktop/x86_64-13.1.0-release-posix-seh-ucrt-rt_v111-rev1/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/string_view \
   C:/Users/AlKotlin/Downloads/Telegram\ Desktop/x86_64-13.1.0-release-posix-seh-ucrt-rt_v111-rev1/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/system_error \
+  C:/Users/AlKotlin/Downloads/Telegram\ Desktop/x86_64-13.1.0-release-posix-seh-ucrt-rt_v111-rev1/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/tr1/bessel_function.tcc \
+  C:/Users/AlKotlin/Downloads/Telegram\ Desktop/x86_64-13.1.0-release-posix-seh-ucrt-rt_v111-rev1/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/tr1/beta_function.tcc \
+  C:/Users/AlKotlin/Downloads/Telegram\ Desktop/x86_64-13.1.0-release-posix-seh-ucrt-rt_v111-rev1/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/tr1/ell_integral.tcc \
+  C:/Users/AlKotlin/Downloads/Telegram\ Desktop/x86_64-13.1.0-release-posix-seh-ucrt-rt_v111-rev1/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/tr1/exp_integral.tcc \
+  C:/Users/AlKotlin/Downloads/Telegram\ Desktop/x86_64-13.1.0-release-posix-seh-ucrt-rt_v111-rev1/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/tr1/gamma.tcc \
+  C:/Users/AlKotlin/Downloads/Telegram\ Desktop/x86_64-13.1.0-release-posix-seh-ucrt-rt_v111-rev1/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/tr1/hypergeometric.tcc \
+  C:/Users/AlKotlin/Downloads/Telegram\ Desktop/x86_64-13.1.0-release-posix-seh-ucrt-rt_v111-rev1/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/tr1/legendre_function.tcc \
+  C:/Users/AlKotlin/Downloads/Telegram\ Desktop/x86_64-13.1.0-release-posix-seh-ucrt-rt_v111-rev1/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/tr1/modified_bessel_func.tcc \
+  C:/Users/AlKotlin/Downloads/Telegram\ Desktop/x86_64-13.1.0-release-posix-seh-ucrt-rt_v111-rev1/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/tr1/poly_hermite.tcc \
+  C:/Users/AlKotlin/Downloads/Telegram\ Desktop/x86_64-13.1.0-release-posix-seh-ucrt-rt_v111-rev1/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/tr1/poly_laguerre.tcc \
+  C:/Users/AlKotlin/Downloads/Telegram\ Desktop/x86_64-13.1.0-release-posix-seh-ucrt-rt_v111-rev1/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/tr1/riemann_zeta.tcc \
+  C:/Users/AlKotlin/Downloads/Telegram\ Desktop/x86_64-13.1.0-release-posix-seh-ucrt-rt_v111-rev1/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/tr1/special_function_util.h \
   C:/Users/AlKotlin/Downloads/Telegram\ Desktop/x86_64-13.1.0-release-posix-seh-ucrt-rt_v111-rev1/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/tuple \
   C:/Users/AlKotlin/Downloads/Telegram\ Desktop/x86_64-13.1.0-release-posix-seh-ucrt-rt_v111-rev1/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/type_traits \
   C:/Users/AlKotlin/Downloads/Telegram\ Desktop/x86_64-13.1.0-release-posix-seh-ucrt-rt_v111-rev1/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/typeinfo \
+  C:/Users/AlKotlin/Downloads/Telegram\ Desktop/x86_64-13.1.0-release-posix-seh-ucrt-rt_v111-rev1/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/utility \
+  C:/Users/AlKotlin/Downloads/Telegram\ Desktop/x86_64-13.1.0-release-posix-seh-ucrt-rt_v111-rev1/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/vector \
   C:/Users/AlKotlin/Downloads/Telegram\ Desktop/x86_64-13.1.0-release-posix-seh-ucrt-rt_v111-rev1/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/atomic_word.h \
   C:/Users/AlKotlin/Downloads/Telegram\ Desktop/x86_64-13.1.0-release-posix-seh-ucrt-rt_v111-rev1/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/c++allocator.h \
   C:/Users/AlKotlin/Downloads/Telegram\ Desktop/x86_64-13.1.0-release-posix-seh-ucrt-rt_v111-rev1/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \
@@ -376,6 +428,7 @@ CMakeFiles/MyProject.dir/main.cpp.obj: C:/Users/AlKotlin/Desktop/laba/main.cpp \
   C:/Users/AlKotlin/Downloads/Telegram\ Desktop/x86_64-13.1.0-release-posix-seh-ucrt-rt_v111-rev1/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/limits.h \
   C:/Users/AlKotlin/Downloads/Telegram\ Desktop/x86_64-13.1.0-release-posix-seh-ucrt-rt_v111-rev1/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/mm_malloc.h \
   C:/Users/AlKotlin/Downloads/Telegram\ Desktop/x86_64-13.1.0-release-posix-seh-ucrt-rt_v111-rev1/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/stddef.h \
+  C:/Users/AlKotlin/Downloads/Telegram\ Desktop/x86_64-13.1.0-release-posix-seh-ucrt-rt_v111-rev1/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/stdint.h \
   C:/Users/AlKotlin/Downloads/Telegram\ Desktop/x86_64-13.1.0-release-posix-seh-ucrt-rt_v111-rev1/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/syslimits.h \
   C:/Users/AlKotlin/Downloads/Telegram\ Desktop/x86_64-13.1.0-release-posix-seh-ucrt-rt_v111-rev1/mingw64/x86_64-w64-mingw32/include/_mingw.h \
   C:/Users/AlKotlin/Downloads/Telegram\ Desktop/x86_64-13.1.0-release-posix-seh-ucrt-rt_v111-rev1/mingw64/x86_64-w64-mingw32/include/_mingw_mac.h \
@@ -393,6 +446,7 @@ CMakeFiles/MyProject.dir/main.cpp.obj: C:/Users/AlKotlin/Desktop/laba/main.cpp \
   C:/Users/AlKotlin/Downloads/Telegram\ Desktop/x86_64-13.1.0-release-posix-seh-ucrt-rt_v111-rev1/mingw64/x86_64-w64-mingw32/include/limits.h \
   C:/Users/AlKotlin/Downloads/Telegram\ Desktop/x86_64-13.1.0-release-posix-seh-ucrt-rt_v111-rev1/mingw64/x86_64-w64-mingw32/include/locale.h \
   C:/Users/AlKotlin/Downloads/Telegram\ Desktop/x86_64-13.1.0-release-posix-seh-ucrt-rt_v111-rev1/mingw64/x86_64-w64-mingw32/include/malloc.h \
+  C:/Users/AlKotlin/Downloads/Telegram\ Desktop/x86_64-13.1.0-release-posix-seh-ucrt-rt_v111-rev1/mingw64/x86_64-w64-mingw32/include/math.h \
   C:/Users/AlKotlin/Downloads/Telegram\ Desktop/x86_64-13.1.0-release-posix-seh-ucrt-rt_v111-rev1/mingw64/x86_64-w64-mingw32/include/process.h \
   C:/Users/AlKotlin/Downloads/Telegram\ Desktop/x86_64-13.1.0-release-posix-seh-ucrt-rt_v111-rev1/mingw64/x86_64-w64-mingw32/include/pthread.h \
   C:/Users/AlKotlin/Downloads/Telegram\ Desktop/x86_64-13.1.0-release-posix-seh-ucrt-rt_v111-rev1/mingw64/x86_64-w64-mingw32/include/pthread_compat.h \
@@ -406,6 +460,7 @@ CMakeFiles/MyProject.dir/main.cpp.obj: C:/Users/AlKotlin/Desktop/laba/main.cpp \
   C:/Users/AlKotlin/Downloads/Telegram\ Desktop/x86_64-13.1.0-release-posix-seh-ucrt-rt_v111-rev1/mingw64/x86_64-w64-mingw32/include/sec_api/wchar_s.h \
   C:/Users/AlKotlin/Downloads/Telegram\ Desktop/x86_64-13.1.0-release-posix-seh-ucrt-rt_v111-rev1/mingw64/x86_64-w64-mingw32/include/signal.h \
   C:/Users/AlKotlin/Downloads/Telegram\ Desktop/x86_64-13.1.0-release-posix-seh-ucrt-rt_v111-rev1/mingw64/x86_64-w64-mingw32/include/stddef.h \
+  C:/Users/AlKotlin/Downloads/Telegram\ Desktop/x86_64-13.1.0-release-posix-seh-ucrt-rt_v111-rev1/mingw64/x86_64-w64-mingw32/include/stdint.h \
   C:/Users/AlKotlin/Downloads/Telegram\ Desktop/x86_64-13.1.0-release-posix-seh-ucrt-rt_v111-rev1/mingw64/x86_64-w64-mingw32/include/stdio.h \
   C:/Users/AlKotlin/Downloads/Telegram\ Desktop/x86_64-13.1.0-release-posix-seh-ucrt-rt_v111-rev1/mingw64/x86_64-w64-mingw32/include/stdlib.h \
   C:/Users/AlKotlin/Downloads/Telegram\ Desktop/x86_64-13.1.0-release-posix-seh-ucrt-rt_v111-rev1/mingw64/x86_64-w64-mingw32/include/swprintf.inl \
@@ -414,7 +469,10 @@ CMakeFiles/MyProject.dir/main.cpp.obj: C:/Users/AlKotlin/Desktop/laba/main.cpp \
   C:/Users/AlKotlin/Downloads/Telegram\ Desktop/x86_64-13.1.0-release-posix-seh-ucrt-rt_v111-rev1/mingw64/x86_64-w64-mingw32/include/time.h \
   C:/Users/AlKotlin/Downloads/Telegram\ Desktop/x86_64-13.1.0-release-posix-seh-ucrt-rt_v111-rev1/mingw64/x86_64-w64-mingw32/include/vadefs.h \
   C:/Users/AlKotlin/Downloads/Telegram\ Desktop/x86_64-13.1.0-release-posix-seh-ucrt-rt_v111-rev1/mingw64/x86_64-w64-mingw32/include/wchar.h \
-  C:/Users/AlKotlin/Downloads/Telegram\ Desktop/x86_64-13.1.0-release-posix-seh-ucrt-rt_v111-rev1/mingw64/x86_64-w64-mingw32/include/wctype.h
+  C:/Users/AlKotlin/Downloads/Telegram\ Desktop/x86_64-13.1.0-release-posix-seh-ucrt-rt_v111-rev1/mingw64/x86_64-w64-mingw32/include/wctype.h \
+  C:/Users/AlKotlin/Desktop/laba/Matrix.h \
+  C:/Users/AlKotlin/Desktop/laba/PhysValue.h \
+  C:/Users/AlKotlin/Desktop/laba/au_all_units.hh
 
 
 C:/Users/AlKotlin/Desktop/laba/external/OpenXLSX/OpenXLSX/headers/XLCellValue.hpp:
