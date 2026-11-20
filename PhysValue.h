@@ -7,8 +7,11 @@
 
 template <typename Unit>
 class PhysValue {
+private:
+    // PhysValue(): value(au::QuantityD<Unit>::zero()), error(au::QuantityD<Unit>::zero()){};
+    PhysValue() = delete; // так как у каждого au::QantityВ есть шаблонный параметр , который должен быть известен на этапе компилляции
 public:
-    PhysValue(): value(au::ZERO), error(au::ZERO){};
+    //PhysValue(): value(au::ZERO), error(au::ZERO){};
     au::QuantityD<Unit> value;
     au::QuantityD<Unit> error;
 
@@ -67,11 +70,11 @@ public:
     template<typename Unit2>
     auto operator/(PhysValue<Unit2> other) const 
     {
-        auto new_value = value / other.value;
-        auto new_error = new_value * au::sqrt(au::pow<2>(error / value) + au::pow<2>(other.error / other.value));
         if (value.in(Unit{}) == 0.0 || other.value.in(Unit2{}) == 0.0) {
             throw std::domain_error("Деление на ноль при расчете относительной погрешности");
         }
+        auto new_value = value / other.value;
+        auto new_error = new_value * au::sqrt(au::pow<2>(error / value) + au::pow<2>(other.error / other.value));
         return PhysValue<typename decltype(new_value)::unit>(new_value, new_error);
     }
     PhysValue<Unit>& operator/=(double scalr)
@@ -108,7 +111,7 @@ public:
     // }
     friend std::ostream& operator<<(std::ostream& os, const PhysValue<Unit>& masurement)
     {
-        os << masurement.value << "±" << masurement.error;               // создать гост вывод 
+        os << masurement.value.in(Unit{}) << "±" << masurement.error;      
         return os;
     }
 };
