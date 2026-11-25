@@ -86,43 +86,20 @@ public:
         error /= std::abs(scalr);
         return *this;
     }
-
-    template <int N>
-    auto pow() const 
+template <int Num, int Den = 1>
+    auto pow() const
     {
-        auto new_value = au::pow<N>(value);
+        static_assert(Den != 0, "Den must be nonzero");
+
+        auto new_value = au::pow<Num, Den>(value);
+        auto relative_error = (error / value) * std::abs(double(Num) / double(Den));
+        auto new_error = new_value * relative_error;
+
         using NewUnit = typename decltype(new_value)::unit;
-
-        if constexpr (N == 0) {
-            return PhysValue<NewUnit>(new_value,
-                                      au::QuantityD<NewUnit>(au::ZERO));
-        } else {
-            auto new_error = std::abs(N) * au::pow<N-1>(value) * error;
-            return PhysValue<NewUnit>(new_value, new_error);
-        }
-    }
-    // PhysValue<Unit>& operator=(const PhysValue<Unit>& other)
-    // {
-    //     value = other.value;
-    //     error = other.error;
-    //     return *this;
-    // }
-    // PhysValue<Unit>& operator=(PhysValue<Unit>&& other)
-    // {
-    //     if(this != *other)
-    //     {
-    //         value = other.value;
-    //         error = other.error;
-    //     }
-    //     return *this;
-    // }
-    friend std::ostream& operator<<(std::ostream& os, const PhysValue<Unit>& masurement)
-    {
-        os << masurement.value << "±" << masurement.error;               // создать гост вывод 
-        return os;
+        return PhysValue<NewUnit>(new_value, new_error);
     }
 };
-
+      
 
 template<typename Unit>
 bool operator==(const PhysValue<Unit>& lhs, const PhysValue<Unit>& rhs)
@@ -163,6 +140,13 @@ bool operator!=(const PhysValue<Unit>& lhs, const PhysValue<Unit>& rhs)
 {
     if( lhs == rhs ) return false;
     return true;
+}
+
+template <typename Unit>
+std::ostream& operator<<(std::ostream& os, const PhysValue<Unit>& v)
+{
+    os << v.value << "±" << v.error;
+    return os;
 }
 
 template <typename Unit>
