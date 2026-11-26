@@ -5,6 +5,8 @@
 #include <string>
 #include <stdexcept>
 #include <functional>
+#include <algorithm>
+
 
 template <typename Unit, std::size_t N>
 void fillAndAddRow(Matrix& m,
@@ -75,7 +77,34 @@ Matrix ExcelEnterI(const std::string& path) {
         throw;
     }
 }
-Matrix ExcelEnter(const std::string& path, std::size_t count) {
+std::size_t detectN(const OpenXLSX::XLWorksheet& wks,
+                    std::size_t startRow,
+                    std::size_t col)
+{
+    std::size_t n = 0;
+    for (std::size_t row = startRow; ; ++row) {
+        try {
+            wks.cell(row, col).value().get<double>();
+            ++n;
+        } catch (...) {
+            break;
+        }
+    }
+    return n;
+}
+Matrix ExcelEnter(const std::string& path, std::size_t count = 0) {
+        if (count == 0) {
+        OpenXLSX::XLDocument doc;
+        doc.open(path);
+        auto wks = doc.workbook().worksheet(1);
+        count = std::min({
+            detectN(wks, 2, 1),
+            detectN(wks, 2, 2),
+            detectN(wks, 2, 3),
+            detectN(wks, 2, 4)
+        });
+        std::cout << "auto count = " << count << "\n";
+    }
     switch (count)
     {
         case 1:  return ExcelEnterI<1>(path);
