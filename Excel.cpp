@@ -16,8 +16,8 @@ void fillAndAddRow(Matrix& m,
 {
     Row<Unit, N> row(name);
     for (std::size_t i = 0; i < N; ++i) {
-        row[i].value = unit(get(rowValue, 2 + i));
-        row[i].error = unit(get(rowError, 2 + i));
+        row[i].value = unit(get(2 + i, rowValue));
+        row[i].error = unit(get(2 + i, rowError));
     }
     m.add(row);
 }
@@ -31,7 +31,7 @@ void addRowByUnit(Matrix& m,
 {
     if (unitName == "meters" || unitName == "m") {
         fillAndAddRow<au::Meters, N>(m, rowName, get, au::meters, rowValue, rowError);
-    }                              //         ^ N, а не 12
+    }
     else if (unitName == "seconds" || unitName == "s") {
         fillAndAddRow<au::Seconds, N>(m, rowName, get, au::seconds, rowValue, rowError);
     }
@@ -60,14 +60,14 @@ Matrix ExcelEnterI(const std::string& path) {
 
         Matrix m;
 
-        std::string unit1Name = getName(2, 1);
-        std::string unit2Name = getName(4, 1);
+        std::string unit1Name = getName(1, 2);
+        std::string unit2Name = getName(1, 4);
 
         std::cout << "row1 unit: " << unit1Name << "\n";
         std::cout << "row2 unit: " << unit2Name << "\n";
 
         addRowByUnit<N>(m, unit1Name, getName(1, 1), get, 1, 2);
-        addRowByUnit<N>(m, unit2Name, getName(3, 1), get, 3, 4);
+        addRowByUnit<N>(m, unit2Name, getName(1, 3), get, 3, 4);
 
         return m;
     } catch (const std::exception& e) {
