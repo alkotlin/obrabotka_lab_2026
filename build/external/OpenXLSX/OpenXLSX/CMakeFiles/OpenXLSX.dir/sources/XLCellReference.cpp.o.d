@@ -1,8 +1,6 @@
 external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLCellReference.cpp.o: \
   /home/ivankurnikov/Vault/Personal/ProgAndCode/cpp-cource2026/phys_laba/obrabotka_lab_2026/external/OpenXLSX/OpenXLSX/sources/XLCellReference.cpp \
-  /usr/lib/gcc/x86_64-linux-gnu/15/../../../../include/c++/15/array \
-  /usr/lib/gcc/x86_64-linux-gnu/15/../../../../include/c++/15/compare \
-  /usr/lib/gcc/x86_64-linux-gnu/15/../../../../include/c++/15/bits/version.h \
+  /usr/lib/gcc/x86_64-linux-gnu/15/../../../../include/c++/15/cstdint \
   /usr/lib/gcc/x86_64-linux-gnu/15/../../../../include/x86_64-linux-gnu/c++/15/bits/c++config.h \
   /usr/lib/gcc/x86_64-linux-gnu/15/../../../../include/x86_64-linux-gnu/c++/15/bits/os_defines.h \
   /usr/include/features.h /usr/include/features-time64.h \
@@ -14,6 +12,18 @@ external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLCellReference.cpp.o
   /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
   /usr/lib/gcc/x86_64-linux-gnu/15/../../../../include/x86_64-linux-gnu/c++/15/bits/cpu_defines.h \
   /usr/lib/gcc/x86_64-linux-gnu/15/../../../../include/c++/15/pstl/pstl_config.h \
+  /usr/lib/llvm-21/lib/clang/21/include/stdint.h /usr/include/stdint.h \
+  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
+  /usr/include/x86_64-linux-gnu/bits/types.h \
+  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
+  /usr/include/x86_64-linux-gnu/bits/time64.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar.h \
+  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
+  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
+  /usr/include/x86_64-linux-gnu/bits/stdint-least.h \
+  /usr/lib/gcc/x86_64-linux-gnu/15/../../../../include/c++/15/array \
+  /usr/lib/gcc/x86_64-linux-gnu/15/../../../../include/c++/15/compare \
+  /usr/lib/gcc/x86_64-linux-gnu/15/../../../../include/c++/15/bits/version.h \
   /usr/lib/gcc/x86_64-linux-gnu/15/../../../../include/c++/15/initializer_list \
   /usr/lib/gcc/x86_64-linux-gnu/15/../../../../include/c++/15/type_traits \
   /usr/lib/gcc/x86_64-linux-gnu/15/../../../../include/c++/15/bits/functexcept.h \
@@ -38,9 +48,7 @@ external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLCellReference.cpp.o
   /usr/lib/gcc/x86_64-linux-gnu/15/../../../../include/c++/15/bits/range_access.h \
   /usr/lib/gcc/x86_64-linux-gnu/15/../../../../include/c++/15/cmath \
   /usr/lib/gcc/x86_64-linux-gnu/15/../../../../include/c++/15/bits/requires_hosted.h \
-  /usr/include/math.h \
-  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
-  /usr/include/x86_64-linux-gnu/bits/math-vector.h \
+  /usr/include/math.h /usr/include/x86_64-linux-gnu/bits/math-vector.h \
   /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
   /usr/include/x86_64-linux-gnu/bits/floatn.h \
   /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
@@ -62,15 +70,11 @@ external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLCellReference.cpp.o
   /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
   /usr/include/x86_64-linux-gnu/sys/types.h \
-  /usr/include/x86_64-linux-gnu/bits/types.h \
-  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
-  /usr/include/x86_64-linux-gnu/bits/time64.h \
   /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
-  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h /usr/include/endian.h \
-  /usr/include/x86_64-linux-gnu/bits/endian.h \
+  /usr/include/endian.h /usr/include/x86_64-linux-gnu/bits/endian.h \
   /usr/include/x86_64-linux-gnu/bits/endianness.h \
   /usr/include/x86_64-linux-gnu/bits/byteswap.h \
   /usr/include/x86_64-linux-gnu/bits/uintn-identity.h \
@@ -119,7 +123,6 @@ external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLCellReference.cpp.o
   /usr/lib/gcc/x86_64-linux-gnu/15/../../../../include/c++/15/cwchar \
   /usr/include/wchar.h /usr/lib/llvm-21/lib/clang/21/include/stdarg.h \
   /usr/lib/llvm-21/lib/clang/21/include/__stdarg___gnuc_va_list.h \
-  /usr/include/x86_64-linux-gnu/bits/wchar.h \
   /usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \

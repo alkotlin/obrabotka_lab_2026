@@ -20,7 +20,7 @@ events:
     names:
       - "uname"
     candidate_directories:
-      - "/home/ivankurnikov/.vscode-server/bin/8a14f0cc1b08d531eb83255ea3764ae22aa932b5/bin/remote-cli/"
+      - "/home/ivankurnikov/.vscode-server/bin/661626d0e72f97806550790a98fb87116c9db825/bin/remote-cli/"
       - "/home/ivankurnikov/.local/bin/"
       - "/home/ivankurnikov/miniconda3/bin/"
       - "/home/ivankurnikov/miniconda3/condabin/"
@@ -60,7 +60,7 @@ events:
       - "/snap/bin/"
       - "/usr/local/go/bin/"
     searched_directories:
-      - "/home/ivankurnikov/.vscode-server/bin/8a14f0cc1b08d531eb83255ea3764ae22aa932b5/bin/remote-cli/uname"
+      - "/home/ivankurnikov/.vscode-server/bin/661626d0e72f97806550790a98fb87116c9db825/bin/remote-cli/uname"
       - "/home/ivankurnikov/.local/bin/uname"
       - "/home/ivankurnikov/miniconda3/bin/uname"
       - "/home/ivankurnikov/miniconda3/condabin/uname"
@@ -70,7 +70,7 @@ events:
     found: "/usr/bin/uname"
     search_context:
       ENV{PATH}:
-        - "/home/ivankurnikov/.vscode-server/bin/8a14f0cc1b08d531eb83255ea3764ae22aa932b5/bin/remote-cli"
+        - "/home/ivankurnikov/.vscode-server/bin/661626d0e72f97806550790a98fb87116c9db825/bin/remote-cli"
         - "/home/ivankurnikov/.local/bin"
         - "/home/ivankurnikov/.local/bin"
         - "/home/ivankurnikov/miniconda3/bin"
@@ -171,7 +171,7 @@ events:
     found: false
     search_context:
       ENV{PATH}:
-        - "/home/ivankurnikov/.vscode-server/bin/8a14f0cc1b08d531eb83255ea3764ae22aa932b5/bin/remote-cli"
+        - "/home/ivankurnikov/.vscode-server/bin/661626d0e72f97806550790a98fb87116c9db825/bin/remote-cli"
         - "/home/ivankurnikov/.local/bin"
         - "/home/ivankurnikov/.local/bin"
         - "/home/ivankurnikov/miniconda3/bin"
@@ -241,7 +241,7 @@ events:
     found: "/usr/share/cmake-4.2/Modules/CMakeFortranCompilerId.F.in"
     search_context:
       ENV{PATH}:
-        - "/home/ivankurnikov/.vscode-server/bin/8a14f0cc1b08d531eb83255ea3764ae22aa932b5/bin/remote-cli"
+        - "/home/ivankurnikov/.vscode-server/bin/661626d0e72f97806550790a98fb87116c9db825/bin/remote-cli"
         - "/home/ivankurnikov/.local/bin"
         - "/home/ivankurnikov/.local/bin"
         - "/home/ivankurnikov/miniconda3/bin"
@@ -328,7 +328,7 @@ events:
     found: "/usr/share/cmake-4.2/Modules/CMakeFortranCompilerId.F.in"
     search_context:
       ENV{PATH}:
-        - "/home/ivankurnikov/.vscode-server/bin/8a14f0cc1b08d531eb83255ea3764ae22aa932b5/bin/remote-cli"
+        - "/home/ivankurnikov/.vscode-server/bin/661626d0e72f97806550790a98fb87116c9db825/bin/remote-cli"
         - "/home/ivankurnikov/.local/bin"
         - "/home/ivankurnikov/.local/bin"
         - "/home/ivankurnikov/miniconda3/bin"
@@ -415,7 +415,7 @@ events:
     found: "/usr/share/cmake-4.2/Modules/CMakeFortranCompilerId.F.in"
     search_context:
       ENV{PATH}:
-        - "/home/ivankurnikov/.vscode-server/bin/8a14f0cc1b08d531eb83255ea3764ae22aa932b5/bin/remote-cli"
+        - "/home/ivankurnikov/.vscode-server/bin/661626d0e72f97806550790a98fb87116c9db825/bin/remote-cli"
         - "/home/ivankurnikov/.local/bin"
         - "/home/ivankurnikov/.local/bin"
         - "/home/ivankurnikov/miniconda3/bin"
@@ -502,7 +502,7 @@ events:
     found: "/usr/share/cmake-4.2/Modules/CMakeFortranCompilerId.F.in"
     search_context:
       ENV{PATH}:
-        - "/home/ivankurnikov/.vscode-server/bin/8a14f0cc1b08d531eb83255ea3764ae22aa932b5/bin/remote-cli"
+        - "/home/ivankurnikov/.vscode-server/bin/661626d0e72f97806550790a98fb87116c9db825/bin/remote-cli"
         - "/home/ivankurnikov/.local/bin"
         - "/home/ivankurnikov/.local/bin"
         - "/home/ivankurnikov/miniconda3/bin"
@@ -589,7 +589,7 @@ events:
     found: "/usr/share/cmake-4.2/Modules/CMakeFortranCompilerId.F.in"
     search_context:
       ENV{PATH}:
-        - "/home/ivankurnikov/.vscode-server/bin/8a14f0cc1b08d531eb83255ea3764ae22aa932b5/bin/remote-cli"
+        - "/home/ivankurnikov/.vscode-server/bin/661626d0e72f97806550790a98fb87116c9db825/bin/remote-cli"
         - "/home/ivankurnikov/.local/bin"
         - "/home/ivankurnikov/.local/bin"
         - "/home/ivankurnikov/miniconda3/bin"
@@ -676,7 +676,7 @@ events:
     found: "/usr/share/cmake-4.2/Modules/CMakeFortranCompilerId.F.in"
     search_context:
       ENV{PATH}:
-        - "/home/ivankurnikov/.vscode-server/bin/8a14f0cc1b08d531eb83255ea3764ae22aa932b5/bin/remote-cli"
+        - "/home/ivankurnikov/.vscode-server/bin/661626d0e72f97806550790a98fb87116c9db825/bin/remote-cli"
         - "/home/ivankurnikov/.local/bin"
         - "/home/ivankurnikov/.local/bin"
         - "/home/ivankurnikov/miniconda3/bin"
@@ -763,7 +763,7 @@ events:
     found: "/usr/share/cmake-4.2/Modules/CMakeFortranCompilerId.F.in"
     search_context:
       ENV{PATH}:
-        - "/home/ivankurnikov/.vscode-server/bin/8a14f0cc1b08d531eb83255ea3764ae22aa932b5/bin/remote-cli"
+        - "/home/ivankurnikov/.vscode-server/bin/661626d0e72f97806550790a98fb87116c9db825/bin/remote-cli"
         - "/home/ivankurnikov/.local/bin"
         - "/home/ivankurnikov/.local/bin"
         - "/home/ivankurnikov/miniconda3/bin"
@@ -850,7 +850,7 @@ events:
     found: "/usr/share/cmake-4.2/Modules/CMakeFortranCompilerId.F.in"
     search_context:
       ENV{PATH}:
-        - "/home/ivankurnikov/.vscode-server/bin/8a14f0cc1b08d531eb83255ea3764ae22aa932b5/bin/remote-cli"
+        - "/home/ivankurnikov/.vscode-server/bin/661626d0e72f97806550790a98fb87116c9db825/bin/remote-cli"
         - "/home/ivankurnikov/.local/bin"
         - "/home/ivankurnikov/.local/bin"
         - "/home/ivankurnikov/miniconda3/bin"
@@ -937,7 +937,7 @@ events:
     found: "/usr/share/cmake-4.2/Modules/CMakeFortranCompilerId.F.in"
     search_context:
       ENV{PATH}:
-        - "/home/ivankurnikov/.vscode-server/bin/8a14f0cc1b08d531eb83255ea3764ae22aa932b5/bin/remote-cli"
+        - "/home/ivankurnikov/.vscode-server/bin/661626d0e72f97806550790a98fb87116c9db825/bin/remote-cli"
         - "/home/ivankurnikov/.local/bin"
         - "/home/ivankurnikov/.local/bin"
         - "/home/ivankurnikov/miniconda3/bin"
@@ -1024,7 +1024,7 @@ events:
     found: "/usr/share/cmake-4.2/Modules/CMakeFortranCompilerId.F.in"
     search_context:
       ENV{PATH}:
-        - "/home/ivankurnikov/.vscode-server/bin/8a14f0cc1b08d531eb83255ea3764ae22aa932b5/bin/remote-cli"
+        - "/home/ivankurnikov/.vscode-server/bin/661626d0e72f97806550790a98fb87116c9db825/bin/remote-cli"
         - "/home/ivankurnikov/.local/bin"
         - "/home/ivankurnikov/.local/bin"
         - "/home/ivankurnikov/miniconda3/bin"
@@ -1111,7 +1111,7 @@ events:
     found: "/usr/share/cmake-4.2/Modules/CMakeFortranCompilerId.F.in"
     search_context:
       ENV{PATH}:
-        - "/home/ivankurnikov/.vscode-server/bin/8a14f0cc1b08d531eb83255ea3764ae22aa932b5/bin/remote-cli"
+        - "/home/ivankurnikov/.vscode-server/bin/661626d0e72f97806550790a98fb87116c9db825/bin/remote-cli"
         - "/home/ivankurnikov/.local/bin"
         - "/home/ivankurnikov/.local/bin"
         - "/home/ivankurnikov/miniconda3/bin"
@@ -1198,7 +1198,7 @@ events:
     found: "/usr/share/cmake-4.2/Modules/CMakeFortranCompilerId.F.in"
     search_context:
       ENV{PATH}:
-        - "/home/ivankurnikov/.vscode-server/bin/8a14f0cc1b08d531eb83255ea3764ae22aa932b5/bin/remote-cli"
+        - "/home/ivankurnikov/.vscode-server/bin/661626d0e72f97806550790a98fb87116c9db825/bin/remote-cli"
         - "/home/ivankurnikov/.local/bin"
         - "/home/ivankurnikov/.local/bin"
         - "/home/ivankurnikov/miniconda3/bin"
@@ -1277,7 +1277,7 @@ events:
     names:
       - "ar"
     candidate_directories:
-      - "/home/ivankurnikov/.vscode-server/bin/8a14f0cc1b08d531eb83255ea3764ae22aa932b5/bin/remote-cli/"
+      - "/home/ivankurnikov/.vscode-server/bin/661626d0e72f97806550790a98fb87116c9db825/bin/remote-cli/"
       - "/home/ivankurnikov/.local/bin/"
       - "/home/ivankurnikov/miniconda3/bin/"
       - "/home/ivankurnikov/miniconda3/condabin/"
@@ -1317,7 +1317,7 @@ events:
       - "/snap/bin/"
       - "/usr/local/go/bin/"
     searched_directories:
-      - "/home/ivankurnikov/.vscode-server/bin/8a14f0cc1b08d531eb83255ea3764ae22aa932b5/bin/remote-cli/ar"
+      - "/home/ivankurnikov/.vscode-server/bin/661626d0e72f97806550790a98fb87116c9db825/bin/remote-cli/ar"
       - "/home/ivankurnikov/.local/bin/ar"
       - "/home/ivankurnikov/miniconda3/bin/ar"
       - "/home/ivankurnikov/miniconda3/condabin/ar"
@@ -1327,7 +1327,7 @@ events:
     found: "/usr/bin/ar"
     search_context:
       ENV{PATH}:
-        - "/home/ivankurnikov/.vscode-server/bin/8a14f0cc1b08d531eb83255ea3764ae22aa932b5/bin/remote-cli"
+        - "/home/ivankurnikov/.vscode-server/bin/661626d0e72f97806550790a98fb87116c9db825/bin/remote-cli"
         - "/home/ivankurnikov/.local/bin"
         - "/home/ivankurnikov/.local/bin"
         - "/home/ivankurnikov/miniconda3/bin"
@@ -1389,7 +1389,7 @@ events:
     names:
       - "ranlib"
     candidate_directories:
-      - "/home/ivankurnikov/.vscode-server/bin/8a14f0cc1b08d531eb83255ea3764ae22aa932b5/bin/remote-cli/"
+      - "/home/ivankurnikov/.vscode-server/bin/661626d0e72f97806550790a98fb87116c9db825/bin/remote-cli/"
       - "/home/ivankurnikov/.local/bin/"
       - "/home/ivankurnikov/miniconda3/bin/"
       - "/home/ivankurnikov/miniconda3/condabin/"
@@ -1429,7 +1429,7 @@ events:
       - "/snap/bin/"
       - "/usr/local/go/bin/"
     searched_directories:
-      - "/home/ivankurnikov/.vscode-server/bin/8a14f0cc1b08d531eb83255ea3764ae22aa932b5/bin/remote-cli/ranlib"
+      - "/home/ivankurnikov/.vscode-server/bin/661626d0e72f97806550790a98fb87116c9db825/bin/remote-cli/ranlib"
       - "/home/ivankurnikov/.local/bin/ranlib"
       - "/home/ivankurnikov/miniconda3/bin/ranlib"
       - "/home/ivankurnikov/miniconda3/condabin/ranlib"
@@ -1439,7 +1439,7 @@ events:
     found: "/usr/bin/ranlib"
     search_context:
       ENV{PATH}:
-        - "/home/ivankurnikov/.vscode-server/bin/8a14f0cc1b08d531eb83255ea3764ae22aa932b5/bin/remote-cli"
+        - "/home/ivankurnikov/.vscode-server/bin/661626d0e72f97806550790a98fb87116c9db825/bin/remote-cli"
         - "/home/ivankurnikov/.local/bin"
         - "/home/ivankurnikov/.local/bin"
         - "/home/ivankurnikov/miniconda3/bin"
@@ -1501,7 +1501,7 @@ events:
     names:
       - "strip"
     candidate_directories:
-      - "/home/ivankurnikov/.vscode-server/bin/8a14f0cc1b08d531eb83255ea3764ae22aa932b5/bin/remote-cli/"
+      - "/home/ivankurnikov/.vscode-server/bin/661626d0e72f97806550790a98fb87116c9db825/bin/remote-cli/"
       - "/home/ivankurnikov/.local/bin/"
       - "/home/ivankurnikov/miniconda3/bin/"
       - "/home/ivankurnikov/miniconda3/condabin/"
@@ -1541,7 +1541,7 @@ events:
       - "/snap/bin/"
       - "/usr/local/go/bin/"
     searched_directories:
-      - "/home/ivankurnikov/.vscode-server/bin/8a14f0cc1b08d531eb83255ea3764ae22aa932b5/bin/remote-cli/strip"
+      - "/home/ivankurnikov/.vscode-server/bin/661626d0e72f97806550790a98fb87116c9db825/bin/remote-cli/strip"
       - "/home/ivankurnikov/.local/bin/strip"
       - "/home/ivankurnikov/miniconda3/bin/strip"
       - "/home/ivankurnikov/miniconda3/condabin/strip"
@@ -1551,7 +1551,7 @@ events:
     found: "/usr/bin/strip"
     search_context:
       ENV{PATH}:
-        - "/home/ivankurnikov/.vscode-server/bin/8a14f0cc1b08d531eb83255ea3764ae22aa932b5/bin/remote-cli"
+        - "/home/ivankurnikov/.vscode-server/bin/661626d0e72f97806550790a98fb87116c9db825/bin/remote-cli"
         - "/home/ivankurnikov/.local/bin"
         - "/home/ivankurnikov/.local/bin"
         - "/home/ivankurnikov/miniconda3/bin"
@@ -1613,7 +1613,7 @@ events:
     names:
       - "ld"
     candidate_directories:
-      - "/home/ivankurnikov/.vscode-server/bin/8a14f0cc1b08d531eb83255ea3764ae22aa932b5/bin/remote-cli/"
+      - "/home/ivankurnikov/.vscode-server/bin/661626d0e72f97806550790a98fb87116c9db825/bin/remote-cli/"
       - "/home/ivankurnikov/.local/bin/"
       - "/home/ivankurnikov/miniconda3/bin/"
       - "/home/ivankurnikov/miniconda3/condabin/"
@@ -1653,7 +1653,7 @@ events:
       - "/snap/bin/"
       - "/usr/local/go/bin/"
     searched_directories:
-      - "/home/ivankurnikov/.vscode-server/bin/8a14f0cc1b08d531eb83255ea3764ae22aa932b5/bin/remote-cli/ld"
+      - "/home/ivankurnikov/.vscode-server/bin/661626d0e72f97806550790a98fb87116c9db825/bin/remote-cli/ld"
       - "/home/ivankurnikov/.local/bin/ld"
       - "/home/ivankurnikov/miniconda3/bin/ld"
       - "/home/ivankurnikov/miniconda3/condabin/ld"
@@ -1663,7 +1663,7 @@ events:
     found: "/usr/bin/ld"
     search_context:
       ENV{PATH}:
-        - "/home/ivankurnikov/.vscode-server/bin/8a14f0cc1b08d531eb83255ea3764ae22aa932b5/bin/remote-cli"
+        - "/home/ivankurnikov/.vscode-server/bin/661626d0e72f97806550790a98fb87116c9db825/bin/remote-cli"
         - "/home/ivankurnikov/.local/bin"
         - "/home/ivankurnikov/.local/bin"
         - "/home/ivankurnikov/miniconda3/bin"
@@ -1725,7 +1725,7 @@ events:
     names:
       - "nm"
     candidate_directories:
-      - "/home/ivankurnikov/.vscode-server/bin/8a14f0cc1b08d531eb83255ea3764ae22aa932b5/bin/remote-cli/"
+      - "/home/ivankurnikov/.vscode-server/bin/661626d0e72f97806550790a98fb87116c9db825/bin/remote-cli/"
       - "/home/ivankurnikov/.local/bin/"
       - "/home/ivankurnikov/miniconda3/bin/"
       - "/home/ivankurnikov/miniconda3/condabin/"
@@ -1765,7 +1765,7 @@ events:
       - "/snap/bin/"
       - "/usr/local/go/bin/"
     searched_directories:
-      - "/home/ivankurnikov/.vscode-server/bin/8a14f0cc1b08d531eb83255ea3764ae22aa932b5/bin/remote-cli/nm"
+      - "/home/ivankurnikov/.vscode-server/bin/661626d0e72f97806550790a98fb87116c9db825/bin/remote-cli/nm"
       - "/home/ivankurnikov/.local/bin/nm"
       - "/home/ivankurnikov/miniconda3/bin/nm"
       - "/home/ivankurnikov/miniconda3/condabin/nm"
@@ -1775,7 +1775,7 @@ events:
     found: "/usr/bin/nm"
     search_context:
       ENV{PATH}:
-        - "/home/ivankurnikov/.vscode-server/bin/8a14f0cc1b08d531eb83255ea3764ae22aa932b5/bin/remote-cli"
+        - "/home/ivankurnikov/.vscode-server/bin/661626d0e72f97806550790a98fb87116c9db825/bin/remote-cli"
         - "/home/ivankurnikov/.local/bin"
         - "/home/ivankurnikov/.local/bin"
         - "/home/ivankurnikov/miniconda3/bin"
@@ -1837,7 +1837,7 @@ events:
     names:
       - "objdump"
     candidate_directories:
-      - "/home/ivankurnikov/.vscode-server/bin/8a14f0cc1b08d531eb83255ea3764ae22aa932b5/bin/remote-cli/"
+      - "/home/ivankurnikov/.vscode-server/bin/661626d0e72f97806550790a98fb87116c9db825/bin/remote-cli/"
       - "/home/ivankurnikov/.local/bin/"
       - "/home/ivankurnikov/miniconda3/bin/"
       - "/home/ivankurnikov/miniconda3/condabin/"
@@ -1877,7 +1877,7 @@ events:
       - "/snap/bin/"
       - "/usr/local/go/bin/"
     searched_directories:
-      - "/home/ivankurnikov/.vscode-server/bin/8a14f0cc1b08d531eb83255ea3764ae22aa932b5/bin/remote-cli/objdump"
+      - "/home/ivankurnikov/.vscode-server/bin/661626d0e72f97806550790a98fb87116c9db825/bin/remote-cli/objdump"
       - "/home/ivankurnikov/.local/bin/objdump"
       - "/home/ivankurnikov/miniconda3/bin/objdump"
       - "/home/ivankurnikov/miniconda3/condabin/objdump"
@@ -1887,7 +1887,7 @@ events:
     found: "/usr/bin/objdump"
     search_context:
       ENV{PATH}:
-        - "/home/ivankurnikov/.vscode-server/bin/8a14f0cc1b08d531eb83255ea3764ae22aa932b5/bin/remote-cli"
+        - "/home/ivankurnikov/.vscode-server/bin/661626d0e72f97806550790a98fb87116c9db825/bin/remote-cli"
         - "/home/ivankurnikov/.local/bin"
         - "/home/ivankurnikov/.local/bin"
         - "/home/ivankurnikov/miniconda3/bin"
@@ -1949,7 +1949,7 @@ events:
     names:
       - "objcopy"
     candidate_directories:
-      - "/home/ivankurnikov/.vscode-server/bin/8a14f0cc1b08d531eb83255ea3764ae22aa932b5/bin/remote-cli/"
+      - "/home/ivankurnikov/.vscode-server/bin/661626d0e72f97806550790a98fb87116c9db825/bin/remote-cli/"
       - "/home/ivankurnikov/.local/bin/"
       - "/home/ivankurnikov/miniconda3/bin/"
       - "/home/ivankurnikov/miniconda3/condabin/"
@@ -1989,7 +1989,7 @@ events:
       - "/snap/bin/"
       - "/usr/local/go/bin/"
     searched_directories:
-      - "/home/ivankurnikov/.vscode-server/bin/8a14f0cc1b08d531eb83255ea3764ae22aa932b5/bin/remote-cli/objcopy"
+      - "/home/ivankurnikov/.vscode-server/bin/661626d0e72f97806550790a98fb87116c9db825/bin/remote-cli/objcopy"
       - "/home/ivankurnikov/.local/bin/objcopy"
       - "/home/ivankurnikov/miniconda3/bin/objcopy"
       - "/home/ivankurnikov/miniconda3/condabin/objcopy"
@@ -1999,7 +1999,7 @@ events:
     found: "/usr/bin/objcopy"
     search_context:
       ENV{PATH}:
-        - "/home/ivankurnikov/.vscode-server/bin/8a14f0cc1b08d531eb83255ea3764ae22aa932b5/bin/remote-cli"
+        - "/home/ivankurnikov/.vscode-server/bin/661626d0e72f97806550790a98fb87116c9db825/bin/remote-cli"
         - "/home/ivankurnikov/.local/bin"
         - "/home/ivankurnikov/.local/bin"
         - "/home/ivankurnikov/miniconda3/bin"
@@ -2061,7 +2061,7 @@ events:
     names:
       - "readelf"
     candidate_directories:
-      - "/home/ivankurnikov/.vscode-server/bin/8a14f0cc1b08d531eb83255ea3764ae22aa932b5/bin/remote-cli/"
+      - "/home/ivankurnikov/.vscode-server/bin/661626d0e72f97806550790a98fb87116c9db825/bin/remote-cli/"
       - "/home/ivankurnikov/.local/bin/"
       - "/home/ivankurnikov/miniconda3/bin/"
       - "/home/ivankurnikov/miniconda3/condabin/"
@@ -2101,7 +2101,7 @@ events:
       - "/snap/bin/"
       - "/usr/local/go/bin/"
     searched_directories:
-      - "/home/ivankurnikov/.vscode-server/bin/8a14f0cc1b08d531eb83255ea3764ae22aa932b5/bin/remote-cli/readelf"
+      - "/home/ivankurnikov/.vscode-server/bin/661626d0e72f97806550790a98fb87116c9db825/bin/remote-cli/readelf"
       - "/home/ivankurnikov/.local/bin/readelf"
       - "/home/ivankurnikov/miniconda3/bin/readelf"
       - "/home/ivankurnikov/miniconda3/condabin/readelf"
@@ -2111,7 +2111,7 @@ events:
     found: "/usr/bin/readelf"
     search_context:
       ENV{PATH}:
-        - "/home/ivankurnikov/.vscode-server/bin/8a14f0cc1b08d531eb83255ea3764ae22aa932b5/bin/remote-cli"
+        - "/home/ivankurnikov/.vscode-server/bin/661626d0e72f97806550790a98fb87116c9db825/bin/remote-cli"
         - "/home/ivankurnikov/.local/bin"
         - "/home/ivankurnikov/.local/bin"
         - "/home/ivankurnikov/miniconda3/bin"
@@ -2173,7 +2173,7 @@ events:
     names:
       - "dlltool"
     candidate_directories:
-      - "/home/ivankurnikov/.vscode-server/bin/8a14f0cc1b08d531eb83255ea3764ae22aa932b5/bin/remote-cli/"
+      - "/home/ivankurnikov/.vscode-server/bin/661626d0e72f97806550790a98fb87116c9db825/bin/remote-cli/"
       - "/home/ivankurnikov/.local/bin/"
       - "/home/ivankurnikov/miniconda3/bin/"
       - "/home/ivankurnikov/miniconda3/condabin/"
@@ -2213,7 +2213,7 @@ events:
       - "/snap/bin/"
       - "/usr/local/go/bin/"
     searched_directories:
-      - "/home/ivankurnikov/.vscode-server/bin/8a14f0cc1b08d531eb83255ea3764ae22aa932b5/bin/remote-cli/dlltool"
+      - "/home/ivankurnikov/.vscode-server/bin/661626d0e72f97806550790a98fb87116c9db825/bin/remote-cli/dlltool"
       - "/home/ivankurnikov/.local/bin/dlltool"
       - "/home/ivankurnikov/miniconda3/bin/dlltool"
       - "/home/ivankurnikov/miniconda3/condabin/dlltool"
@@ -2255,7 +2255,7 @@ events:
     found: false
     search_context:
       ENV{PATH}:
-        - "/home/ivankurnikov/.vscode-server/bin/8a14f0cc1b08d531eb83255ea3764ae22aa932b5/bin/remote-cli"
+        - "/home/ivankurnikov/.vscode-server/bin/661626d0e72f97806550790a98fb87116c9db825/bin/remote-cli"
         - "/home/ivankurnikov/.local/bin"
         - "/home/ivankurnikov/.local/bin"
         - "/home/ivankurnikov/miniconda3/bin"
@@ -2317,7 +2317,7 @@ events:
     names:
       - "addr2line"
     candidate_directories:
-      - "/home/ivankurnikov/.vscode-server/bin/8a14f0cc1b08d531eb83255ea3764ae22aa932b5/bin/remote-cli/"
+      - "/home/ivankurnikov/.vscode-server/bin/661626d0e72f97806550790a98fb87116c9db825/bin/remote-cli/"
       - "/home/ivankurnikov/.local/bin/"
       - "/home/ivankurnikov/miniconda3/bin/"
       - "/home/ivankurnikov/miniconda3/condabin/"
@@ -2357,7 +2357,7 @@ events:
       - "/snap/bin/"
       - "/usr/local/go/bin/"
     searched_directories:
-      - "/home/ivankurnikov/.vscode-server/bin/8a14f0cc1b08d531eb83255ea3764ae22aa932b5/bin/remote-cli/addr2line"
+      - "/home/ivankurnikov/.vscode-server/bin/661626d0e72f97806550790a98fb87116c9db825/bin/remote-cli/addr2line"
       - "/home/ivankurnikov/.local/bin/addr2line"
       - "/home/ivankurnikov/miniconda3/bin/addr2line"
       - "/home/ivankurnikov/miniconda3/condabin/addr2line"
@@ -2367,7 +2367,7 @@ events:
     found: "/usr/bin/addr2line"
     search_context:
       ENV{PATH}:
-        - "/home/ivankurnikov/.vscode-server/bin/8a14f0cc1b08d531eb83255ea3764ae22aa932b5/bin/remote-cli"
+        - "/home/ivankurnikov/.vscode-server/bin/661626d0e72f97806550790a98fb87116c9db825/bin/remote-cli"
         - "/home/ivankurnikov/.local/bin"
         - "/home/ivankurnikov/.local/bin"
         - "/home/ivankurnikov/miniconda3/bin"
@@ -2429,7 +2429,7 @@ events:
     names:
       - "tapi"
     candidate_directories:
-      - "/home/ivankurnikov/.vscode-server/bin/8a14f0cc1b08d531eb83255ea3764ae22aa932b5/bin/remote-cli/"
+      - "/home/ivankurnikov/.vscode-server/bin/661626d0e72f97806550790a98fb87116c9db825/bin/remote-cli/"
       - "/home/ivankurnikov/.local/bin/"
       - "/home/ivankurnikov/miniconda3/bin/"
       - "/home/ivankurnikov/miniconda3/condabin/"
@@ -2469,7 +2469,7 @@ events:
       - "/snap/bin/"
       - "/usr/local/go/bin/"
     searched_directories:
-      - "/home/ivankurnikov/.vscode-server/bin/8a14f0cc1b08d531eb83255ea3764ae22aa932b5/bin/remote-cli/tapi"
+      - "/home/ivankurnikov/.vscode-server/bin/661626d0e72f97806550790a98fb87116c9db825/bin/remote-cli/tapi"
       - "/home/ivankurnikov/.local/bin/tapi"
       - "/home/ivankurnikov/miniconda3/bin/tapi"
       - "/home/ivankurnikov/miniconda3/condabin/tapi"
@@ -2511,7 +2511,7 @@ events:
     found: false
     search_context:
       ENV{PATH}:
-        - "/home/ivankurnikov/.vscode-server/bin/8a14f0cc1b08d531eb83255ea3764ae22aa932b5/bin/remote-cli"
+        - "/home/ivankurnikov/.vscode-server/bin/661626d0e72f97806550790a98fb87116c9db825/bin/remote-cli"
         - "/home/ivankurnikov/.local/bin"
         - "/home/ivankurnikov/.local/bin"
         - "/home/ivankurnikov/miniconda3/bin"
