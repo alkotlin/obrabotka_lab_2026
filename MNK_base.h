@@ -5,6 +5,8 @@
     #include <string>
     #include <stdexcept>
     #include <cmath>
+    #include <algorithm>
+    #include <numeric>
 
     template <typename UnitX, typename UnitY>
     class Model {
@@ -69,11 +71,52 @@
             "Экспоненциальная: y = A * exp(-αx)", 2
         ) {}
         // замена переменных для линейной зависимости 
-        std::vector<double> getInitialGuess(const std::vector<double>& x, const std::vector<double>& y) const override {
-            if (x.empty() || y.empty()) return {1.0, 1.0};
-            double A = y[0];
-            double alpha = (y[0] > y.back()) ? std::log(y[0] / (y.back() + 1e-10)) / (x.back() - x[0]) : 0.01;
-            return {A, std::max(0.01, alpha)};
+        std::vector<double> getInitialGuess(const std::vector<double>& x,
+                                            const std::vector<double>& y) const override {
+            if (x.empty() || y.empty() || x.size() != y.size() || x.size() < 2)
+                return {1.0, 0.01};
+
+            // 1. Отбираем точки, пригодные для лог-линеаризации: y > 0, конечные x
+            std::vector<double> xs, ls; // xs — x, ls — ln(y)
+            xs.reserve(x.size());
+            ls.reserve(x.size());
+            for (size_t i = 0; i < x.size(); ++i) {
+                if (std::isfinite(x[i]) && std::isfinite(y[i]) && y[i] > 0.0) {
+                    xs.push_back(x[i]);
+                    ls.push_back(std::log(y[i]));
+                }
+            }
+            if (xs.size() < 2)
+                return {y[0] > 0.0 ? y[0] : 1.0, 0.01};
+
+            // 2. Полный МНК в координатах (x, ln y):  ln y = ln A - alpha * x
+            const double n  = static_cast<double>(xs.size());
+            const double sx = std::accumulate(xs.begin(), xs.end(), 0.0);
+            const double sl = std::accumulate(ls.begin(), ls.end(), 0.0);
+            double sxx = 0.0, sxl = 0.0;
+            for (size_t i = 0; i < xs.size(); ++i) {
+                sxx += xs[i] * xs[i];
+                sxl += xs[i] * ls[i];
+            }
+            const double denom = n * sxx - sx * sx;
+            if (std::abs(denom) < 1e-15 || std::abs(xs.back() - xs.front()) < 1e-15)
+                return {std::exp(sl / n), 0.01}; // x почти не меняется: затухание не оценить
+
+            const double slope = (n * sxl - sx * sl) / denom; // это -alpha
+            const double intercept = (sl - slope * sx) / n;   // это ln A
+
+            // 3. Санитайзинг результатов
+            double A = std::exp(std::clamp(intercept, -50.0, 50.0));
+            double alpha = -slope;
+
+            // Данные должны затухать; если МНК дал рост/ноль — ставим безопасный минимум
+            if (!(alpha > 0.0))
+                alpha = 0.01;
+            alpha = std::clamp(alpha, 1e-6, 1e6);
+            if (!(A > 0.0) || !std::isfinite(A))
+                A = 1.0;
+
+            return {A, alpha};
         }
     };
 
@@ -201,14 +244,9 @@
             double omega = 2.0 * M_PI / (x.back() - x.front());
             double phi = 0.0;
             return {A, alpha, omega, phi};
+            
         }
     };
-
-    #pragma once
-#include "PhysValue.h"
-#include <iostream>
-#include <vector>
-#include <string>
 
 // ============================================================================
 // 1. Результат для ЛИНЕЙНОЙ аппроксимации (Строго типизированный)
