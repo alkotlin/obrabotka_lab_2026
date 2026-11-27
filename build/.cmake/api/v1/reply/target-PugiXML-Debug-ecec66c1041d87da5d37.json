@@ -1,0 +1,43 @@
+{
+	"abstract" : true,
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library"
+		],
+		"files" : 
+		[
+			"external/OpenXLSX/OpenXLSX/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 47,
+				"parent" : 0
+			}
+		]
+	},
+	"codemodelVersion" : 
+	{
+		"major" : 2,
+		"minor" : 9
+	},
+	"id" : "PugiXML::@41b5bafdbce81fcd0eba",
+	"imported" : true,
+	"local" : true,
+	"name" : "PugiXML",
+	"paths" : 
+	{
+		"build" : "external/OpenXLSX/OpenXLSX",
+		"source" : "external/OpenXLSX/OpenXLSX"
+	},
+	"sources" : [],
+	"type" : "INTERFACE_LIBRARY"
+}

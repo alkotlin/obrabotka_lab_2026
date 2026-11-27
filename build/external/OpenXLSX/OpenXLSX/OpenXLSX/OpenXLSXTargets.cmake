@@ -7,7 +7,7 @@ if(CMAKE_VERSION VERSION_LESS "2.8.3")
    message(FATAL_ERROR "CMake >= 2.8.3 required")
 endif()
 cmake_policy(PUSH)
-cmake_policy(VERSION 2.8.3...4.2)
+cmake_policy(VERSION 2.8.3...4.0)
 #----------------------------------------------------------------
 # Generated CMake target import file.
 #----------------------------------------------------------------
@@ -19,7 +19,7 @@ set(CMAKE_IMPORT_FILE_VERSION 1)
 set(_cmake_targets_defined "")
 set(_cmake_targets_not_defined "")
 set(_cmake_expected_targets "")
-foreach(_cmake_expected_target IN ITEMS OpenXLSX::static OpenXLSX::miniz OpenXLSX::nowide OpenXLSX::OpenXLSX)
+foreach(_cmake_expected_target IN ITEMS OpenXLSX::OpenXLSX)
   list(APPEND _cmake_expected_targets "${_cmake_expected_target}")
   if(TARGET "${_cmake_expected_target}")
     list(APPEND _cmake_targets_defined "${_cmake_expected_target}")
@@ -46,68 +46,18 @@ unset(_cmake_targets_not_defined)
 unset(_cmake_expected_targets)
 
 
-# Create imported target OpenXLSX::static
-add_library(OpenXLSX::static STATIC IMPORTED)
-
-set_target_properties(OpenXLSX::static PROPERTIES
-  INTERFACE_COMPILE_DEFINITIONS "\$<\$<BOOL:OFF>:PUGIXML_WCHAR_MODE>;\$<\$<BOOL:OFF>:PUGIXML_COMPACT>;\$<\$<BOOL:OFF>:PUGIXML_NO_XPATH>;\$<\$<BOOL:OFF>:PUGIXML_NO_STL>;\$<\$<BOOL:OFF>:PUGIXML_NO_EXCEPTIONS>"
-  INTERFACE_INCLUDE_DIRECTORIES "C:/Users/AlKotlin/Desktop/laba/build/_deps/pugixml_fetch-src/src"
-)
-
-# Create imported target OpenXLSX::miniz
-add_library(OpenXLSX::miniz STATIC IMPORTED)
-
-set_target_properties(OpenXLSX::miniz PROPERTIES
-  COMPATIBLE_INTERFACE_STRING "miniz_MAJOR_VERSION"
-  INTERFACE_COMPILE_DEFINITIONS "MINIZ_STATIC_DEFINE"
-  INTERFACE_INCLUDE_DIRECTORIES "C:/Users/AlKotlin/Desktop/laba/build/_deps/miniz_fetch-src;C:/Users/AlKotlin/Desktop/laba/build/_deps/miniz_fetch-build"
-  INTERFACE_miniz_MAJOR_VERSION "3"
-)
-
-# Create imported target OpenXLSX::nowide
-add_library(OpenXLSX::nowide STATIC IMPORTED)
-
-set_target_properties(OpenXLSX::nowide PROPERTIES
-  INTERFACE_COMPILE_DEFINITIONS "NOWIDE_NO_LIB"
-  INTERFACE_COMPILE_FEATURES "cxx_std_11"
-  INTERFACE_INCLUDE_DIRECTORIES "C:/Users/AlKotlin/Desktop/laba/build/_deps/nowide_fetch-src/include"
-)
-
 # Create imported target OpenXLSX::OpenXLSX
-add_library(OpenXLSX::OpenXLSX STATIC IMPORTED)
+add_library(OpenXLSX::OpenXLSX SHARED IMPORTED)
 
 set_target_properties(OpenXLSX::OpenXLSX PROPERTIES
-  INTERFACE_COMPILE_DEFINITIONS "OPENXLSX_STATIC_DEFINE"
-  INTERFACE_INCLUDE_DIRECTORIES "C:/Users/AlKotlin/Desktop/laba/external/OpenXLSX/OpenXLSX;C:/Users/AlKotlin/Desktop/laba/external/OpenXLSX/OpenXLSX/headers;C:/Users/AlKotlin/Desktop/laba/build/external/OpenXLSX/OpenXLSX"
-  INTERFACE_LINK_LIBRARIES "\$<LINK_ONLY:OpenXLSX::static>;\$<LINK_ONLY:OpenXLSX::miniz>;\$<LINK_ONLY:OpenXLSX::nowide>"
+  INTERFACE_INCLUDE_DIRECTORIES "/home/ivankurnikov/Vault/Personal/ProgAndCode/cpp-cource2026/phys_laba/obrabotka_lab_2026/external/OpenXLSX/OpenXLSX;/home/ivankurnikov/Vault/Personal/ProgAndCode/cpp-cource2026/phys_laba/obrabotka_lab_2026/external/OpenXLSX/OpenXLSX/headers;/home/ivankurnikov/Vault/Personal/ProgAndCode/cpp-cource2026/phys_laba/obrabotka_lab_2026/build/external/OpenXLSX/OpenXLSX"
 )
 
-# Import target "OpenXLSX::static" for configuration "Release"
-set_property(TARGET OpenXLSX::static APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
-set_target_properties(OpenXLSX::static PROPERTIES
-  IMPORTED_LINK_INTERFACE_LANGUAGES_RELEASE "CXX"
-  IMPORTED_LOCATION_RELEASE "C:/Users/AlKotlin/Desktop/laba/build/output/libpugixml.a"
-  )
-
-# Import target "OpenXLSX::miniz" for configuration "Release"
-set_property(TARGET OpenXLSX::miniz APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
-set_target_properties(OpenXLSX::miniz PROPERTIES
-  IMPORTED_LINK_INTERFACE_LANGUAGES_RELEASE "C"
-  IMPORTED_LOCATION_RELEASE "C:/Users/AlKotlin/Desktop/laba/build/output/libminiz.a"
-  )
-
-# Import target "OpenXLSX::nowide" for configuration "Release"
-set_property(TARGET OpenXLSX::nowide APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
-set_target_properties(OpenXLSX::nowide PROPERTIES
-  IMPORTED_LINK_INTERFACE_LANGUAGES_RELEASE "CXX"
-  IMPORTED_LOCATION_RELEASE "C:/Users/AlKotlin/Desktop/laba/build/output/libnowide.a"
-  )
-
-# Import target "OpenXLSX::OpenXLSX" for configuration "Release"
-set_property(TARGET OpenXLSX::OpenXLSX APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
+# Import target "OpenXLSX::OpenXLSX" for configuration "Debug"
+set_property(TARGET OpenXLSX::OpenXLSX APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
 set_target_properties(OpenXLSX::OpenXLSX PROPERTIES
-  IMPORTED_LINK_INTERFACE_LANGUAGES_RELEASE "CXX"
-  IMPORTED_LOCATION_RELEASE "C:/Users/AlKotlin/Desktop/laba/build/output/libOpenXLSX.a"
+  IMPORTED_LOCATION_DEBUG "/home/ivankurnikov/Vault/Personal/ProgAndCode/cpp-cource2026/phys_laba/obrabotka_lab_2026/build/output/libOpenXLSXd.so.0.3.1"
+  IMPORTED_SONAME_DEBUG "libOpenXLSXd.so.0"
   )
 
 # This file does not depend on other imported targets which have

@@ -1,2 +1,0 @@
-"C:\Users\AlKotlin\Downloads\Telegram Desktop\x86_64-13.1.0-release-posix-seh-ucrt-rt_v111-rev1\mingw64\bin\ar.exe" qc ..\..\output\libminiz.a CMakeFiles/miniz.dir/miniz.c.obj CMakeFiles/miniz.dir/miniz_zip.c.obj CMakeFiles/miniz.dir/miniz_tinfl.c.obj CMakeFiles/miniz.dir/miniz_tdef.c.obj
-"C:\Users\AlKotlin\Downloads\Telegram Desktop\x86_64-13.1.0-release-posix-seh-ucrt-rt_v111-rev1\mingw64\bin\ranlib.exe" ..\..\output\libminiz.a

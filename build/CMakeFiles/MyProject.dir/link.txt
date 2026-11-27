@@ -1,3 +1,1 @@
-"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\MyProject.dir/objects.a
-"C:\Users\AlKotlin\Downloads\Telegram Desktop\x86_64-13.1.0-release-posix-seh-ucrt-rt_v111-rev1\mingw64\bin\ar.exe" qc CMakeFiles\MyProject.dir/objects.a @CMakeFiles\MyProject.dir\objects1.rsp
-"C:\Users\AlKotlin\Downloads\Telegram Desktop\x86_64-13.1.0-release-posix-seh-ucrt-rt_v111-rev1\mingw64\bin\c++.exe" -O3 -DNDEBUG -Wl,--whole-archive CMakeFiles\MyProject.dir/objects.a -Wl,--no-whole-archive -o MyProject.exe -Wl,--out-implib,libMyProject.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\MyProject.dir\linkLibs.rsp
+/usr/bin/clang++-21 -g -Xlinker --dependency-file=CMakeFiles/MyProject.dir/link.d CMakeFiles/MyProject.dir/main.cpp.o CMakeFiles/MyProject.dir/Excel.cpp.o -o MyProject  -Wl,-rpath,/home/ivankurnikov/Vault/Personal/ProgAndCode/cpp-cource2026/phys_laba/obrabotka_lab_2026/build/output output/libOpenXLSXd.so.0.3.1

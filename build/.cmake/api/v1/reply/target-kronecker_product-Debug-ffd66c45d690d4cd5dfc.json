@@ -1,0 +1,83 @@
+{
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"ei_add_test",
+			"add_dependencies"
+		],
+		"files" : 
+		[
+			"external/eigen/cmake/EigenTesting.cmake",
+			"external/eigen/unsupported/test/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 107,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 210,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 214,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 214,
+				"parent" : 1
+			}
+		]
+	},
+	"codemodelVersion" : 
+	{
+		"major" : 2,
+		"minor" : 9
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 3,
+			"id" : "kronecker_product_1::@ba0ff502cf6303d24257"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "kronecker_product_2::@ba0ff502cf6303d24257"
+		}
+	],
+	"id" : "kronecker_product::@ba0ff502cf6303d24257",
+	"name" : "kronecker_product",
+	"orderDependencies" : 
+	[
+		{
+			"backtrace" : 3,
+			"id" : "kronecker_product_1::@ba0ff502cf6303d24257"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "kronecker_product_2::@ba0ff502cf6303d24257"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "external/eigen/unsupported/test",
+		"source" : "external/eigen/unsupported/test"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

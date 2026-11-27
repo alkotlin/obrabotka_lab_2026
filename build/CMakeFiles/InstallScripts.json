@@ -1,12 +1,25 @@
 {
 	"InstallScripts" : 
 	[
-		"C:/Users/AlKotlin/Desktop/laba/build/cmake_install.cmake",
-		"C:/Users/AlKotlin/Desktop/laba/build/external/OpenXLSX/cmake_install.cmake",
-		"C:/Users/AlKotlin/Desktop/laba/build/_deps/nowide_fetch-build/cmake_install.cmake",
-		"C:/Users/AlKotlin/Desktop/laba/build/_deps/miniz_fetch-build/cmake_install.cmake",
-		"C:/Users/AlKotlin/Desktop/laba/build/_deps/pugixml_fetch-build/cmake_install.cmake",
-		"C:/Users/AlKotlin/Desktop/laba/build/external/OpenXLSX/OpenXLSX/cmake_install.cmake"
+		"/home/ivankurnikov/Vault/Personal/ProgAndCode/cpp-cource2026/phys_laba/obrabotka_lab_2026/build/cmake_install.cmake",
+		"/home/ivankurnikov/Vault/Personal/ProgAndCode/cpp-cource2026/phys_laba/obrabotka_lab_2026/build/external/eigen/cmake_install.cmake",
+		"/home/ivankurnikov/Vault/Personal/ProgAndCode/cpp-cource2026/phys_laba/obrabotka_lab_2026/build/external/eigen/test/cmake_install.cmake",
+		"/home/ivankurnikov/Vault/Personal/ProgAndCode/cpp-cource2026/phys_laba/obrabotka_lab_2026/build/external/eigen/failtest/cmake_install.cmake",
+		"/home/ivankurnikov/Vault/Personal/ProgAndCode/cpp-cource2026/phys_laba/obrabotka_lab_2026/build/external/eigen/blas/cmake_install.cmake",
+		"/home/ivankurnikov/Vault/Personal/ProgAndCode/cpp-cource2026/phys_laba/obrabotka_lab_2026/build/external/eigen/lapack/cmake_install.cmake",
+		"/home/ivankurnikov/Vault/Personal/ProgAndCode/cpp-cource2026/phys_laba/obrabotka_lab_2026/build/external/eigen/unsupported/cmake_install.cmake",
+		"/home/ivankurnikov/Vault/Personal/ProgAndCode/cpp-cource2026/phys_laba/obrabotka_lab_2026/build/external/eigen/unsupported/Eigen/cmake_install.cmake",
+		"/home/ivankurnikov/Vault/Personal/ProgAndCode/cpp-cource2026/phys_laba/obrabotka_lab_2026/build/external/eigen/unsupported/Eigen/CXX11/cmake_install.cmake",
+		"/home/ivankurnikov/Vault/Personal/ProgAndCode/cpp-cource2026/phys_laba/obrabotka_lab_2026/build/external/eigen/unsupported/test/cmake_install.cmake",
+		"/home/ivankurnikov/Vault/Personal/ProgAndCode/cpp-cource2026/phys_laba/obrabotka_lab_2026/build/external/eigen/demos/cmake_install.cmake",
+		"/home/ivankurnikov/Vault/Personal/ProgAndCode/cpp-cource2026/phys_laba/obrabotka_lab_2026/build/external/eigen/scripts/cmake_install.cmake",
+		"/home/ivankurnikov/Vault/Personal/ProgAndCode/cpp-cource2026/phys_laba/obrabotka_lab_2026/build/external/eigen/bench/spbench/cmake_install.cmake",
+		"/home/ivankurnikov/Vault/Personal/ProgAndCode/cpp-cource2026/phys_laba/obrabotka_lab_2026/build/external/OpenXLSX/cmake_install.cmake",
+		"/home/ivankurnikov/Vault/Personal/ProgAndCode/cpp-cource2026/phys_laba/obrabotka_lab_2026/build/external/OpenXLSX/OpenXLSX/cmake_install.cmake",
+		"/home/ivankurnikov/Vault/Personal/ProgAndCode/cpp-cource2026/phys_laba/obrabotka_lab_2026/build/external/least-squares-cpp/cmake_install.cmake",
+		"/home/ivankurnikov/Vault/Personal/ProgAndCode/cpp-cource2026/phys_laba/obrabotka_lab_2026/build/external/least-squares-cpp/dep/cmake_install.cmake",
+		"/home/ivankurnikov/Vault/Personal/ProgAndCode/cpp-cource2026/phys_laba/obrabotka_lab_2026/build/external/least-squares-cpp/include/cmake_install.cmake",
+		"/home/ivankurnikov/Vault/Personal/ProgAndCode/cpp-cource2026/phys_laba/obrabotka_lab_2026/build/external/least-squares-cpp/cmake/cmake_install.cmake"
 	],
 	"Parallel" : false
 }

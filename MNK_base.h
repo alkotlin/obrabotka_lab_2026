@@ -1,4 +1,5 @@
     #pragma once
+    #include "LeastSquares.hpp"
     #include "PhysValue.h"
     #include <functional>
     #include <vector>
@@ -247,40 +248,6 @@
             
         }
     };
-
-// ============================================================================
-// 1. Результат для ЛИНЕЙНОЙ аппроксимации (Строго типизированный)
-// ============================================================================
-template <typename UnitX, typename UnitY>
-struct LinearFitResult {
-    // Размерности выводятся автоматически: k = [Y]/[X], b = [Y]
-    using UnitK = decltype(UnitY{} / UnitX{});
-    using UnitB = UnitY;
-
-    PhysValue<UnitK> k;
-    PhysValue<UnitB> b;
-    
-    double chi_squared;
-    int degrees_of_freedom;
-    double reduced_chi_squared;
-
-    bool isGoodFit() const {
-        // Критерий из п. 4.3 методички
-        return reduced_chi_squared >= 0.5 && reduced_chi_squared <= 1.5; 
-    }
-
-    void print() const {
-        std::cout << "=== Результаты линейной аппроксимации ===\n";
-        std::cout << "k = " << k << "\n";
-        std::cout << "b = " << b << "\n";
-        std::cout << "χ² = " << chi_squared << ", df = " << degrees_of_freedom 
-                  << ", χ²/df = " << reduced_chi_squared << "\n";
-        
-        if (isGoodFit()) std::cout << "✓ Модель адекватна данным\n";
-        else std::cout << "✗ Плохое соответствие (проверьте погрешности или модель)\n";
-        std::cout << "=========================================\n";
-    }
-};
 
 // ============================================================================
 // 2. Результат для НЕЛИНЕЙНОЙ аппроксимации (Универсальный)

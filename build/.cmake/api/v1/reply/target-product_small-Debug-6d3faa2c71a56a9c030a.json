@@ -1,0 +1,349 @@
+{
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"ei_add_test",
+			"add_dependencies"
+		],
+		"files" : 
+		[
+			"external/eigen/cmake/EigenTesting.cmake",
+			"external/eigen/test/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 186,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 210,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 214,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 214,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 214,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 214,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 214,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 214,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 214,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 214,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 214,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 214,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 214,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 214,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 214,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 214,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 214,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 214,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 214,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 214,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 214,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 214,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 214,
+				"parent" : 1
+			}
+		]
+	},
+	"codemodelVersion" : 
+	{
+		"major" : 2,
+		"minor" : 9
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 3,
+			"id" : "product_small_1::@65559b3c6007a0b7fc49"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "product_small_2::@65559b3c6007a0b7fc49"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "product_small_8::@65559b3c6007a0b7fc49"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "product_small_3::@65559b3c6007a0b7fc49"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "product_small_4::@65559b3c6007a0b7fc49"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "product_small_5::@65559b3c6007a0b7fc49"
+		},
+		{
+			"backtrace" : 9,
+			"id" : "product_small_6::@65559b3c6007a0b7fc49"
+		},
+		{
+			"backtrace" : 10,
+			"id" : "product_small_11::@65559b3c6007a0b7fc49"
+		},
+		{
+			"backtrace" : 11,
+			"id" : "product_small_12::@65559b3c6007a0b7fc49"
+		},
+		{
+			"backtrace" : 12,
+			"id" : "product_small_13::@65559b3c6007a0b7fc49"
+		},
+		{
+			"backtrace" : 13,
+			"id" : "product_small_21::@65559b3c6007a0b7fc49"
+		},
+		{
+			"backtrace" : 14,
+			"id" : "product_small_22::@65559b3c6007a0b7fc49"
+		},
+		{
+			"backtrace" : 15,
+			"id" : "product_small_23::@65559b3c6007a0b7fc49"
+		},
+		{
+			"backtrace" : 16,
+			"id" : "product_small_31::@65559b3c6007a0b7fc49"
+		},
+		{
+			"backtrace" : 17,
+			"id" : "product_small_32::@65559b3c6007a0b7fc49"
+		},
+		{
+			"backtrace" : 18,
+			"id" : "product_small_33::@65559b3c6007a0b7fc49"
+		},
+		{
+			"backtrace" : 19,
+			"id" : "product_small_41::@65559b3c6007a0b7fc49"
+		},
+		{
+			"backtrace" : 20,
+			"id" : "product_small_42::@65559b3c6007a0b7fc49"
+		},
+		{
+			"backtrace" : 21,
+			"id" : "product_small_43::@65559b3c6007a0b7fc49"
+		},
+		{
+			"backtrace" : 22,
+			"id" : "product_small_7::@65559b3c6007a0b7fc49"
+		},
+		{
+			"backtrace" : 23,
+			"id" : "product_small_9::@65559b3c6007a0b7fc49"
+		}
+	],
+	"id" : "product_small::@65559b3c6007a0b7fc49",
+	"name" : "product_small",
+	"orderDependencies" : 
+	[
+		{
+			"backtrace" : 3,
+			"id" : "product_small_1::@65559b3c6007a0b7fc49"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "product_small_2::@65559b3c6007a0b7fc49"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "product_small_8::@65559b3c6007a0b7fc49"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "product_small_3::@65559b3c6007a0b7fc49"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "product_small_4::@65559b3c6007a0b7fc49"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "product_small_5::@65559b3c6007a0b7fc49"
+		},
+		{
+			"backtrace" : 9,
+			"id" : "product_small_6::@65559b3c6007a0b7fc49"
+		},
+		{
+			"backtrace" : 10,
+			"id" : "product_small_11::@65559b3c6007a0b7fc49"
+		},
+		{
+			"backtrace" : 11,
+			"id" : "product_small_12::@65559b3c6007a0b7fc49"
+		},
+		{
+			"backtrace" : 12,
+			"id" : "product_small_13::@65559b3c6007a0b7fc49"
+		},
+		{
+			"backtrace" : 13,
+			"id" : "product_small_21::@65559b3c6007a0b7fc49"
+		},
+		{
+			"backtrace" : 14,
+			"id" : "product_small_22::@65559b3c6007a0b7fc49"
+		},
+		{
+			"backtrace" : 15,
+			"id" : "product_small_23::@65559b3c6007a0b7fc49"
+		},
+		{
+			"backtrace" : 16,
+			"id" : "product_small_31::@65559b3c6007a0b7fc49"
+		},
+		{
+			"backtrace" : 17,
+			"id" : "product_small_32::@65559b3c6007a0b7fc49"
+		},
+		{
+			"backtrace" : 18,
+			"id" : "product_small_33::@65559b3c6007a0b7fc49"
+		},
+		{
+			"backtrace" : 19,
+			"id" : "product_small_41::@65559b3c6007a0b7fc49"
+		},
+		{
+			"backtrace" : 20,
+			"id" : "product_small_42::@65559b3c6007a0b7fc49"
+		},
+		{
+			"backtrace" : 21,
+			"id" : "product_small_43::@65559b3c6007a0b7fc49"
+		},
+		{
+			"backtrace" : 22,
+			"id" : "product_small_7::@65559b3c6007a0b7fc49"
+		},
+		{
+			"backtrace" : 23,
+			"id" : "product_small_9::@65559b3c6007a0b7fc49"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "external/eigen/test",
+		"source" : "external/eigen/test"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

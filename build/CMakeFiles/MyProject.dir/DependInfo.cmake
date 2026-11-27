@@ -8,8 +8,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/AlKotlin/Desktop/laba/Excel.cpp" "CMakeFiles/MyProject.dir/Excel.cpp.obj" "gcc" "CMakeFiles/MyProject.dir/Excel.cpp.obj.d"
-  "C:/Users/AlKotlin/Desktop/laba/main.cpp" "CMakeFiles/MyProject.dir/main.cpp.obj" "gcc" "CMakeFiles/MyProject.dir/main.cpp.obj.d"
+  "/home/ivankurnikov/Vault/Personal/ProgAndCode/cpp-cource2026/phys_laba/obrabotka_lab_2026/Excel.cpp" "CMakeFiles/MyProject.dir/Excel.cpp.o" "gcc" "CMakeFiles/MyProject.dir/Excel.cpp.o.d"
+  "/home/ivankurnikov/Vault/Personal/ProgAndCode/cpp-cource2026/phys_laba/obrabotka_lab_2026/main.cpp" "CMakeFiles/MyProject.dir/main.cpp.o" "gcc" "CMakeFiles/MyProject.dir/main.cpp.o.d"
+  "" "MyProject" "gcc" "CMakeFiles/MyProject.dir/link.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

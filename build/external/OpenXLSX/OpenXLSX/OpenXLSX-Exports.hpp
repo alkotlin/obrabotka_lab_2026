@@ -9,20 +9,20 @@
 #  ifndef OPENXLSX_EXPORT
 #    ifdef OpenXLSX_EXPORTS
         /* We are building this library */
-#      define OPENXLSX_EXPORT 
+#      define OPENXLSX_EXPORT __attribute__((visibility("default")))
 #    else
         /* We are using this library */
-#      define OPENXLSX_EXPORT 
+#      define OPENXLSX_EXPORT __attribute__((visibility("default")))
 #    endif
 #  endif
 
 #  ifndef OPENXLSX_HIDDEN
-#    define OPENXLSX_HIDDEN 
+#    define OPENXLSX_HIDDEN __attribute__((visibility("hidden")))
 #  endif
 #endif
 
 #ifndef OPENXLSX_DEPRECATED
-#  define OPENXLSX_DEPRECATED __declspec(deprecated)
+#  define OPENXLSX_DEPRECATED __attribute__ ((__deprecated__))
 #endif
 
 #ifndef OPENXLSX_DEPRECATED_EXPORT

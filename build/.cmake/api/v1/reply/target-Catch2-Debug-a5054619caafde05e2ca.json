@@ -1,0 +1,41 @@
+{
+	"abstract" : true,
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library"
+		],
+		"files" : 
+		[
+			"external/least-squares-cpp/dep/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 15,
+				"parent" : 0
+			}
+		]
+	},
+	"codemodelVersion" : 
+	{
+		"major" : 2,
+		"minor" : 9
+	},
+	"id" : "Catch2::@2981c795472ae881d969",
+	"name" : "Catch2",
+	"paths" : 
+	{
+		"build" : "external/least-squares-cpp/dep",
+		"source" : "external/least-squares-cpp/dep"
+	},
+	"sources" : [],
+	"type" : "INTERFACE_LIBRARY"
+}

@@ -1,0 +1,62 @@
+{
+	"abstract" : true,
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"target_link_libraries"
+		],
+		"files" : 
+		[
+			"external/least-squares-cpp/include/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 7,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 9,
+				"parent" : 0
+			}
+		]
+	},
+	"codemodelVersion" : 
+	{
+		"major" : 2,
+		"minor" : 9
+	},
+	"id" : "lsqcpp::@c3a65b1722862c3644d5",
+	"interfaceCompileDependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "Eigen3::@2981c795472ae881d969"
+		}
+	],
+	"interfaceLinkLibraries" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "Eigen3::@2981c795472ae881d969"
+		}
+	],
+	"name" : "lsqcpp",
+	"paths" : 
+	{
+		"build" : "external/least-squares-cpp/include",
+		"source" : "external/least-squares-cpp/include"
+	},
+	"sources" : [],
+	"type" : "INTERFACE_LIBRARY"
+}

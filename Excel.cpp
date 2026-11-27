@@ -5,6 +5,8 @@
 #include <string>
 #include <stdexcept>
 #include <functional>
+#include <algorithm>
+
 
 template <typename Unit, std::size_t N>
 void fillAndAddRow(Matrix& m,
@@ -16,8 +18,8 @@ void fillAndAddRow(Matrix& m,
 {
     Row<Unit, N> row(name);
     for (std::size_t i = 0; i < N; ++i) {
-        row[i].value = unit(get(rowValue, 2 + i));
-        row[i].error = unit(get(rowError, 2 + i));
+        row[i].value = unit(get(2 + i, rowValue));
+        row[i].error = unit(get(2 + i, rowError));
     }
     m.add(row);
 }
@@ -31,7 +33,7 @@ void addRowByUnit(Matrix& m,
 {
     if (unitName == "meters" || unitName == "m") {
         fillAndAddRow<au::Meters, N>(m, rowName, get, au::meters, rowValue, rowError);
-    }                              //         ^ N, а не 12
+    }
     else if (unitName == "seconds" || unitName == "s") {
         fillAndAddRow<au::Seconds, N>(m, rowName, get, au::seconds, rowValue, rowError);
     }
@@ -60,14 +62,14 @@ Matrix ExcelEnterI(const std::string& path) {
 
         Matrix m;
 
-        std::string unit1Name = getName(2, 1);
-        std::string unit2Name = getName(4, 1);
+        std::string unit1Name = getName(1, 2);
+        std::string unit2Name = getName(1, 4);
 
         std::cout << "row1 unit: " << unit1Name << "\n";
         std::cout << "row2 unit: " << unit2Name << "\n";
 
         addRowByUnit<N>(m, unit1Name, getName(1, 1), get, 1, 2);
-        addRowByUnit<N>(m, unit2Name, getName(3, 1), get, 3, 4);
+        addRowByUnit<N>(m, unit2Name, getName(1, 3), get, 3, 4);
 
         return m;
     } catch (const std::exception& e) {
@@ -75,7 +77,34 @@ Matrix ExcelEnterI(const std::string& path) {
         throw;
     }
 }
-Matrix ExcelEnter(const std::string& path, std::size_t count) {
+std::size_t detectN(const OpenXLSX::XLWorksheet& wks,
+                    std::size_t startRow,
+                    std::size_t col)
+{
+    std::size_t n = 0;
+    for (std::size_t row = startRow; ; ++row) {
+        try {
+            wks.cell(row, col).value().get<double>();
+            ++n;
+        } catch (...) {
+            break;
+        }
+    }
+    return n;
+}
+Matrix ExcelEnter(const std::string& path, std::size_t count = 0) {
+        if (count == 0) {
+        OpenXLSX::XLDocument doc;
+        doc.open(path);
+        auto wks = doc.workbook().worksheet(1);
+        count = std::min({
+            detectN(wks, 2, 1),
+            detectN(wks, 2, 2),
+            detectN(wks, 2, 3),
+            detectN(wks, 2, 4)
+        });
+        std::cout << "auto count = " << count << "\n";
+    }
     switch (count)
     {
         case 1:  return ExcelEnterI<1>(path);

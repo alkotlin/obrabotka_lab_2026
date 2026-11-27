@@ -1,0 +1,167 @@
+{
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"ei_add_test",
+			"add_dependencies"
+		],
+		"files" : 
+		[
+			"external/eigen/cmake/EigenTesting.cmake",
+			"external/eigen/unsupported/test/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 100,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 210,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 214,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 214,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 214,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 214,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 214,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 214,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 214,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 214,
+				"parent" : 1
+			}
+		]
+	},
+	"codemodelVersion" : 
+	{
+		"major" : 2,
+		"minor" : 9
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 3,
+			"id" : "polynomialutils_2::@ba0ff502cf6303d24257"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "polynomialutils_3::@ba0ff502cf6303d24257"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "polynomialutils_4::@ba0ff502cf6303d24257"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "polynomialutils_5::@ba0ff502cf6303d24257"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "polynomialutils_6::@ba0ff502cf6303d24257"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "polynomialutils_7::@ba0ff502cf6303d24257"
+		},
+		{
+			"backtrace" : 9,
+			"id" : "polynomialutils_8::@ba0ff502cf6303d24257"
+		},
+		{
+			"backtrace" : 10,
+			"id" : "polynomialutils_9::@ba0ff502cf6303d24257"
+		}
+	],
+	"id" : "polynomialutils::@ba0ff502cf6303d24257",
+	"name" : "polynomialutils",
+	"orderDependencies" : 
+	[
+		{
+			"backtrace" : 3,
+			"id" : "polynomialutils_2::@ba0ff502cf6303d24257"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "polynomialutils_3::@ba0ff502cf6303d24257"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "polynomialutils_4::@ba0ff502cf6303d24257"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "polynomialutils_5::@ba0ff502cf6303d24257"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "polynomialutils_6::@ba0ff502cf6303d24257"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "polynomialutils_7::@ba0ff502cf6303d24257"
+		},
+		{
+			"backtrace" : 9,
+			"id" : "polynomialutils_8::@ba0ff502cf6303d24257"
+		},
+		{
+			"backtrace" : 10,
+			"id" : "polynomialutils_9::@ba0ff502cf6303d24257"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "external/eigen/unsupported/test",
+		"source" : "external/eigen/unsupported/test"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}
